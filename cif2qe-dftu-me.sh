@@ -248,7 +248,9 @@ function test_Var(test_type) {
 }
 
 # Salta il commento
-$1 ~ /^\#/||/^\;/ { next }
+#$1 ~ /^\#/||/^\;/ { next }
+$1 ~ /^[#;]/ { next }
+
 
 $1 ~ /loop_/ { loop_switch=1; next }
 
