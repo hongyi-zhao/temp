@@ -247,7 +247,7 @@ function test_Var(test_type) {
  return is_present
 }
 
-# Salta il commento
+# Skip the comment
 #$1 ~ /^\#/||/^\;/ { next }
 $1 ~ /^[#;]/ { next }
 
@@ -355,13 +355,14 @@ END {
    printf "[%s]  [%s]  [%s]\n", Tmp[1], Tmp[2], Tmp[3]
  }
  print "&CONTROL"
- print "                       title = \x027" FILE "\x027"
- print "                 calculation = \x027" "vc-relax\x027"
- print "                restart_mode = \x027" "from_scratch\x027"
- print "                      outdir = \x027" "./\x027"
- print "                  pseudo_dir = \x027" "/home/wwwennie/bin/pseudo/\x027"
- print "                      prefix = \x027" FILE_PREFIX "\x027"
- print "                   verbosity = \x027" "default\x027"
+ # use \x27 or \047 to obtain the single quote.
+ print "                       title = \x27" FILE "\x27"
+ print "                 calculation = \x27" "vc-relax\x27"
+ print "                restart_mode = \x27" "from_scratch\x27"
+ print "                      outdir = \x27" "./\x27"
+ print "                  pseudo_dir = \x27" "/home/wwwennie/bin/pseudo/\x27"
+ print "                      prefix = \x27" FILE_PREFIX "\x27"
+ print "                   verbosity = \x27" "default\x27"
  print "               etot_conv_thr = 0.1D-5"
  print "               forc_conv_thr = 0.1D-4"
  print "                       nstep = 400"
@@ -416,8 +417,8 @@ END {
  print "                    nat = " totatom
  print "                    ntyp = " ntyp
  print "                    ecutwfc = 90"
- print "                   occupations =  \x027" "smearing\x027"
- print "                   smearing =  \x027" "mv\x027"
+ print "                   occupations =  \x27" "smearing\x27"
+ print "                   smearing =  \x27" "mv\x27"
  print "                   degauss = 0.0001"
  print "                   nspin = 1"
  print "                   lda_plus_u = .TRUE.  "
@@ -440,17 +441,17 @@ if (SG==2) {
  print "            electron_maxstep = 200"
  print "                    conv_thr = 1.0D-7"
  print "              diago_thr_init = 1e-4"
- print "                 startingpot = \x027" "atomic\x027"
- print "                 startingwfc = \x027" "atomic+random\x027"
- print "                 mixing_mode = \x027" "plain\x027"
+ print "                 startingpot = \x27" "atomic\x27"
+ print "                 startingwfc = \x27" "atomic+random\x27"
+ print "                 mixing_mode = \x27" "plain\x27"
  print "                 mixing_beta = 0.5"
- print "             diagonalization = \x027" "david\x027"
+ print "             diagonalization = \x27" "david\x27"
  print " /"
  print "&IONS"
- print "                ion_dynamics = \x027" "bfgs\x027"
+ print "                ion_dynamics = \x27" "bfgs\x27"
  print " /"
  print "&CELL"
- print "                cell_dynamics = \x027" "bfgs\x027"
+ print "                cell_dynamics = \x27" "bfgs\x27"
  print " /"
  print "\nATOMIC_SPECIES"
  for (i=0; i<ntyp; i++) printf "  %3s  %14.10f  %s_ONCV_PBE-marton.upf\n", AtomTyp[i], Atoms[AtomTyp[i]], AtomTyp[i];
