@@ -1,0 +1,104 @@
+#https://github.com/mviereck/dockerfile-x11docker-deepin/issues/2#issuecomment-699642969
+#https://github.com/mviereck/dockerfile-x11docker-deepin/issues/5#issuecomment-716118596
+#https://github.com/mviereck/dockerfile-x11docker-deepin/issues/14
+
+#https://github.com/mviereck/dockerfile-x11docker-deepin/issues/14#issuecomment-723554767
+
+#    The CMD instruction in your wechat image executes the deepin desktop.
+#    So either run with option --desktop or specify a command to execute after the image name.
+#    Use --xephyr instead of --nxagent to run the deepin desktop.
+
+#https://github.com/mviereck/dockerfile-x11docker-deepin/issues/14#issuecomment-723623469
+#Compare the syntax explained in x11docker --help:
+
+#Usage:
+#To run a Docker container on a new X server:
+#  x11docker IMAGE
+#  x11docker [OPTIONS] IMAGE [COMMAND]
+#  x11docker [OPTIONS] -- IMAGE [COMMAND [ARG1 ARG2 ...]]
+#  x11docker [OPTIONS] -- DOCKER_RUN_OPTIONS -- IMAGE [COMMAND [ARG1 ARG2 ...]]
+
+#Custom docker run options are encapsulated in two --.
+
+# Build the image:
+#Please ensure docker0 has enabled with the following ip address,
+#https://github.com/mviereck/dockerfile-x11docker-deepin/issues/18
+#This maybe a bug of docker itself. Anyway, currently, the following method can be used as an expediency:
+# This method don't need to restart docker service.
+# Run the following check with socks5-haproxy.sh script periodically in background.
+#while :; do
+#  if ! ip a show docker0 | grep -qE '^[ ]*inet 172\.17\.0\.1/16'; then
+#    sudo ip addr add 172.17.0.1/16 dev docker0
+#    sleep 1
+#  fi
+#done
+
+
+# Build the image:
+#$ docker build --network host -f Dockerfiles/deepin-wine . -t hongyi-zhao/deepin-wine
+
+# Run it as below:
+#$ sudo apt-get install xclip xsel
+#https://github.com/mviereck/dockerfile-x11docker-deepin/issues/14#issuecomment-723617936
+#https://github.com/mviereck/dockerfile-x11docker-deepin/issues/19#issuecomment-724662450
+#https://github.com/mviereck/dockerfile-x11docker-deepin/issues/10#issuecomment-724745436
+#You should never use --cap-add=ALL as a solution for anything. It is a security leak. If at all, try to find the one capability that is needed, read about it and assess if it is worth the security risk.
+
+#$ x11docker --sudouser -c --hostnet --keepcache --desktop --init=systemd -- --cap-add=ALL --security-opt seccomp=unconfined -- hongyi-zhao/deepin-wine startdde
+#$ x11docker --sudouser -c --hostnet --desktop --init=systemd -- --cap-add ALL --security-opt seccomp=unconfined -- hongyi-zhao/deepin-wine startdde
+
+
+#https://github.com/mviereck/dockerfile-x11docker-deepin/issues/12
+#Normally x11docker removes the container afterwards. There is an undocumented option --keepcache that I use sometimes for debugging. It preserves the cache files and the container.
+
+#Ok, than I remembered wrong. Than the command would look like
+
+#docker commit containerid newimagename
+
+#Better ways to store user data are options --home and --share.
+
+
+#https://github.com/mviereck/x11docker/issues/288#issuecomment-706610847
+#x11docker is not designed to start already existing containers. There is a docker issue re-using X unix sockets.
+
+#However, you can create a new image from an existing container with docker commit: https://docs.docker.com/engine/reference/commandline/commit/
+#You can run x11docker with this new image.
+
+#I do not recommend this way but rather to set up a Dockerfile containing everything needed. But it is possible to do so, though.
+
+
+#https://stackoverflow.com/questions/44246586/how-to-list-images-and-their-containers
+#$ x11docker --sudouser -c --hostnet --keepcache --desktop --init=systemd -- --cap-add=ALL --security-opt seccomp=unconfined -- hongyi-zhao/deepin-wine startdde
+# Find the container created by the above image running:
+#$ docker ps -a --format="container:{{.ID}} image:{{.Image}}"
+# The following command can be used to the containers displayed with user friendly names: 
+#$ docker container commit <tab>
+#$ docker commit <tab>
+# Create a new image from a container's changes
+# Based on my testings, this method can save the self customized configuration files, say, /etc/sudoers.d/nopasswd.
+#$ docker container commit x11docker_X110_hongyi-zhao-deepin-wine-startdde_53082129703 hongyi-zhao/deepin-wine-test
+
+#$ docker system prune
+
+
+#https://github.com/wszqkzqk/deepin-wine-ubuntu#2%E4%BD%BF%E7%94%A8%E8%AF%B4%E6%98%8E
+#https://github.com/zq1997/deepin-wine#%E5%BF%AB%E9%80%9F%E5%BC%80%E5%A7%8B
+
+#应用 	包名
+#TIM 	deepin.com.qq.office
+#QQ 	deepin.com.qq.im
+#QQ轻聊版 	deepin.com.qq.im.light
+#微信 	deepin.com.wechat
+
+FROM hongyi-zhao/deepin
+RUN echo "deb http://mirrors.ustc.edu.cn/deepin/ lion main non-free contrib" > /etc/apt/sources.list
+RUN env DEBIAN_FRONTEND=noninteractive dpkg --add-architecture i386 && apt-get update
+RUN env DEBIAN_FRONTEND=noninteractive apt-get install -y systemd systemd-sysv iproute2 iptables \
+    iputils-ping iputils-tracepath dnsutils net-tools netcat socat haproxy \
+    gcc make cmake git curl gawk uuid apt-file bash-completion \
+    gdebi synaptic equivs unrar lsb-release apt-utils apt-transport-https openssh-server openssh-client filezilla \
+    xfonts-wqy fonts-wqy-microhei fonts-wqy-zenhei nano gedit gedit-plugins vim xclip xsel \
+    deepin-wine deepin-wine32 deepin-wine32-preloader deepin-wine-helper deepin-wine-uninstaller deepin.com.wechat deepin.com.qq.im
+
+
+

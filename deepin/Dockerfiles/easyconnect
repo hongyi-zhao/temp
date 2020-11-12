@@ -1,0 +1,61 @@
+https://vpn.nxu.edu.cn
+
+102058
+bhc123!@#
+
+# Let the non-free proxy software EasyConnect developed by Sangfor runs in docker cnotainer and provides a socks5 proxy service.
+#https://github.com/Hagb/docker-easyconnect
+#https://github.com/Hagb/docker-easyconnect/issues/12
+
+#https://github.com/mviereck/dockerfile-x11docker-deepin/issues/2#issuecomment-699642969
+#https://github.com/mviereck/dockerfile-x11docker-deepin/issues/5#issuecomment-716118596
+#https://github.com/mviereck/dockerfile-x11docker-deepin/issues/14
+
+#The command used to create the image in the directory where the Dockerfile resides:
+
+#$ docker build -t x11docker-deepin-wechat .
+
+# Build the docker image:
+# For the following problem:
+#E: Failed to fetch http://packages.deepin.com/deepin/pool/non-free/d/deepin.com.wechat/deepin.com.wechat_2.6.8.65deepin0_i386.deb  Could not connect to 172.17.0.1:8080 (172.17.0.1). - connect (113: No route to host)
+#$ sudo systemctl restart docker
+
+# Then retry the following:
+#werner@X10DAi-01:~/dockerfile-x11docker-deepin-wechat$ docker build -t x11docker-deepin-wechat .
+
+
+#https://github.com/mviereck/dockerfile-x11docker-deepin/issues/14#issuecomment-723554767
+
+#    The CMD instruction in your wechat image executes the deepin desktop.
+#    So either run with option --desktop or specify a command to execute after the image name.
+#    Use --xephyr instead of --nxagent to run the deepin desktop.
+
+#https://github.com/mviereck/dockerfile-x11docker-deepin/issues/14#issuecomment-723623469
+# mviereck commented 14 minutes ago
+
+#Compare the syntax explained in x11docker --help:
+
+#Usage:
+#To run a Docker container on a new X server:
+#  x11docker IMAGE
+#  x11docker [OPTIONS] IMAGE [COMMAND]
+#  x11docker [OPTIONS] -- IMAGE [COMMAND [ARG1 ARG2 ...]]
+#  x11docker [OPTIONS] -- DOCKER_RUN_OPTIONS -- IMAGE [COMMAND [ARG1 ARG2 ...]]
+
+#Custom docker run options are encapsulated in two --.
+
+#https://github.com/mviereck/dockerfile-x11docker-deepin/issues/14#issuecomment-723617936
+#$ x11docker --desktop --init=systemd --hostnet -- --cap-add=IPC_LOCK --security-opt seccomp=unconfined -- x11docker-deepin-wechat
+
+
+
+FROM hongyi-zhao/deepin
+RUN echo "deb http://mirrors.ustc.edu.cn/deepin/ lion main non-free contrib" > /etc/apt/sources.list
+RUN env DEBIAN_FRONTEND=noninteractive dpkg --add-architecture i386 && apt-get update
+RUN env DEBIAN_FRONTEND=noninteractive apt-get install -y systemd systemd-sysv systemd-timesyncd iputils-ping \
+    gcc make cmake git netcat socat gawk uuid copyq curl apt-file \
+    gdebi zstd golang synaptic equivs unrar lsb-release apt-utils \
+    deepin-wine deepin-wine32 deepin-wine32-preloader deepin-wine-helper deepin-wine-uninstaller deepin.com.wechat
+
+
+
