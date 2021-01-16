@@ -1,0 +1,1804 @@
+==> /home/werner/.cache/x11docker/manuellr-flameshot-86240835788/share/stderr <==
+
+==> /home/werner/.cache/x11docker/manuellr-flameshot-86240835788/share/stdout <==
+
+==> /home/werner/.cache/x11docker/manuellr-flameshot-86240835788/share/container.log <==
+
+==> /home/werner/.cache/x11docker/manuellr-flameshot-86240835788/message.log <==
+
+DEBUGNOTE[16:37:21,167]: check_host(): ps can watch root processes: yes
+x11docker[16:37:21,179]: Image name: manuellr/flameshot
+  Container command: 
+
+DEBUGNOTE[16:37:21,209]: host user: werner 1000:1000 /home/werner
+x11docker WARNING: User werner is member of group docker.
+  That allows unprivileged processes on host to gain root privileges.
+
+DEBUGNOTE[16:37:21,449]: storeinfo(): cache=/home/werner/.cache/x11docker/manuellr-flameshot-86240835788
+DEBUGNOTE[16:37:21,457]: storeinfo(): stdout=/home/werner/.cache/x11docker/manuellr-flameshot-86240835788/share/stdout
+DEBUGNOTE[16:37:21,465]: storeinfo(): stderr=/home/werner/.cache/x11docker/manuellr-flameshot-86240835788/share/stderr
+DEBUGNOTE[16:37:21,488]: storeinfo(): x11dockerpid=3954351
+DEBUGNOTE[16:37:21,554]: 
+x11docker version: 6.7.0-beta
+docker version:    Docker version 20.10.1, build 831ebea
+Host system:       "Ubuntu 20.10"
+Host architecture: amd64 (x86_64)
+Command:           '/home/werner/Public/repo/github.com/mviereck/x11docker.git/x11docker' '-v' 'manuellr/flameshot' 
+Parsed options:     -v -- 'manuellr/flameshot'
+DEBUGNOTE[16:37:21,606]: --xpra: xpra not found.
+  You can look for the package name of this command at: 
+ https://github.com/mviereck/x11docker/wiki/dependencies#table-of-all-packages
+DEBUGNOTE[16:37:21,609]: Dependency check for --xpra: 1
+DEBUGNOTE[16:37:21,612]: Dependencies of --xpra already checked: 1 
+DEBUGNOTE[16:37:21,616]: --nxagent: nxagent not found.
+  You can look for the package name of this command at: 
+ https://github.com/mviereck/x11docker/wiki/dependencies#table-of-all-packages
+DEBUGNOTE[16:37:21,619]: Dependency check for --nxagent: 1
+DEBUGNOTE[16:37:21,622]: Dependency check for --xephyr: 0
+DEBUGNOTE[16:37:21,626]: Dependencies of --xephyr already checked: 0 
+DEBUGNOTE[16:37:21,629]: Dependencies of --xephyr already checked: 0 
+DEBUGNOTE[16:37:21,633]: Dependencies of --xephyr already checked: 0 
+x11docker note: Using X server option --xephyr
+
+DEBUGNOTE[16:37:21,636]: storeinfo(): xserver=--xephyr
+DEBUGNOTE[16:37:21,663]: container user: werner 1000:1000 /home/werner
+
+==> /home/werner/.cache/x11docker/manuellr-flameshot-86240835788/xinit.log <==
+
+==> /home/werner/.cache/x11docker/manuellr-flameshot-86240835788/share/stderr <==
+
+==> /home/werner/.cache/x11docker/manuellr-flameshot-86240835788/share/stdout <==
+
+==> /home/werner/.cache/x11docker/manuellr-flameshot-86240835788/share/container.log <==
+
+==> /home/werner/.cache/x11docker/manuellr-flameshot-86240835788/message.log <==
+
+DEBUGNOTE[16:37:21,167]: check_host(): ps can watch root processes: yes
+x11docker[16:37:21,179]: Image name: manuellr/flameshot
+  Container command: 
+
+DEBUGNOTE[16:37:21,209]: host user: werner 1000:1000 /home/werner
+x11docker WARNING: User werner is member of group docker.
+  That allows unprivileged processes on host to gain root privileges.
+
+DEBUGNOTE[16:37:21,449]: storeinfo(): cache=/home/werner/.cache/x11docker/manuellr-flameshot-86240835788
+DEBUGNOTE[16:37:21,457]: storeinfo(): stdout=/home/werner/.cache/x11docker/manuellr-flameshot-86240835788/share/stdout
+DEBUGNOTE[16:37:21,465]: storeinfo(): stderr=/home/werner/.cache/x11docker/manuellr-flameshot-86240835788/share/stderr
+DEBUGNOTE[16:37:21,488]: storeinfo(): x11dockerpid=3954351
+DEBUGNOTE[16:37:21,554]: 
+x11docker version: 6.7.0-beta
+docker version:    Docker version 20.10.1, build 831ebea
+Host system:       "Ubuntu 20.10"
+Host architecture: amd64 (x86_64)
+Command:           '/home/werner/Public/repo/github.com/mviereck/x11docker.git/x11docker' '-v' 'manuellr/flameshot' 
+Parsed options:     -v -- 'manuellr/flameshot'
+DEBUGNOTE[16:37:21,606]: --xpra: xpra not found.
+  You can look for the package name of this command at: 
+ https://github.com/mviereck/x11docker/wiki/dependencies#table-of-all-packages
+DEBUGNOTE[16:37:21,609]: Dependency check for --xpra: 1
+DEBUGNOTE[16:37:21,612]: Dependencies of --xpra already checked: 1 
+DEBUGNOTE[16:37:21,616]: --nxagent: nxagent not found.
+  You can look for the package name of this command at: 
+ https://github.com/mviereck/x11docker/wiki/dependencies#table-of-all-packages
+DEBUGNOTE[16:37:21,619]: Dependency check for --nxagent: 1
+DEBUGNOTE[16:37:21,622]: Dependency check for --xephyr: 0
+DEBUGNOTE[16:37:21,626]: Dependencies of --xephyr already checked: 0 
+DEBUGNOTE[16:37:21,629]: Dependencies of --xephyr already checked: 0 
+DEBUGNOTE[16:37:21,633]: Dependencies of --xephyr already checked: 0 
+x11docker note: Using X server option --xephyr
+
+DEBUGNOTE[16:37:21,636]: storeinfo(): xserver=--xephyr
+DEBUGNOTE[16:37:21,663]: container user: werner 1000:1000 /home/werner
+
+==> /home/werner/.cache/x11docker/manuellr-flameshot-86240835788/xinit.log <==
+
+==> /home/werner/.cache/x11docker/manuellr-flameshot-86240835788/message.log <==
+DEBUGNOTE[16:37:21,692]: waitforlogentry(): tailstdout: Waiting for logentry "x11docker=ready" in store.info
+DEBUGNOTE[16:37:21,693]: waitforlogentry(): tailstderr: Waiting for logentry "x11docker=ready" in store.info
+DEBUGNOTE[16:37:21,734]: storepid(): Stored pid '3955926' of 'watchpidlist': 3955926 pts/2    00:00:00 bash
+DEBUGNOTE[16:37:21,770]: storepid(): Stored pid '3955987' of 'watchmessagefifo': 3955987 pts/2    00:00:00 bash
+x11docker[16:37:21,890]: Virtual screen size: 1824x984
+
+x11docker[16:37:21,917]: Physical screen size:
+  Screen 0: minimum 8 x 8, current 1920 x 1080, maximum 32767 x 32767
+
+x11docker[16:37:21,934]: Detected host window manager: mutter
+
+DEBUGNOTE[16:37:21,951]: storeinfo(): DISPLAY=:103
+DEBUGNOTE[16:37:21,959]: storeinfo(): XAUTHORITY=/home/werner/.cache/x11docker/manuellr-flameshot-86240835788/share/Xauthority.client
+DEBUGNOTE[16:37:21,968]: storeinfo(): XSOCKET=/tmp/.X11-unix/X103
+DEBUGNOTE[16:37:21,978]: storeinfo(): XDG_RUNTIME_DIR=/run/user/1000
+DEBUGNOTE[16:37:21,986]: storeinfo(): Xenv= DISPLAY=:103 XAUTHORITY=/home/werner/.cache/x11docker/manuellr-flameshot-86240835788/share/Xauthority.client XSOCKET=/tmp/.X11-unix/X103 XDG_RUNTIME_DIR=/run/user/1000
+DEBUGNOTE[16:37:22,022]: X server command:
+  /usr/bin/Xephyr :103  \
+  -retro \
+  +extension RANDR \
+  +extension RENDER \
+  +extension GLX \
+  +extension XVideo \
+  +extension DOUBLE-BUFFER \
+  +extension SECURITY \
+  +extension DAMAGE \
+  +extension X-Resource \
+  -extension XINERAMA -xinerama \
+  -extension MIT-SHM \
+  +extension Composite +extension COMPOSITE \
+  -extension XTEST -tst \
+  -dpms \
+  -s off \
+  -auth /home/werner/.cache/x11docker/manuellr-flameshot-86240835788/Xauthority.server \
+  -nolisten tcp \
+  -dpi 94 \
+  -resizeable \
+  -noxv \
+  -screen 1824x984 \
+  
+x11docker[16:37:22,192]: --init: Found tini binary: /usr/bin/docker-init
+
+DEBUGNOTE[16:37:22,196]: storeinfo(): tini=/usr/bin/docker-init
+DEBUGNOTE[16:37:22,209]: Users and terminal:
+  x11docker was started by:                       werner
+  As host user serves (running X, storing cache): werner
+  Container user will be:                         werner
+  Container user password:                        x11docker
+  Getting permission to run docker with:          eval 
+  Terminal for password frontend:                 bash -c
+  Running in a terminal:                          yes
+  Running on console:                             no
+  Running over SSH:                               no
+  Running sourced:                                no
+  bash $-:                                        hB
+DEBUGNOTE[16:37:22,213]: storeinfo(): containername=x11docker_X103_manuellr-flameshot_86240835788
+DEBUGNOTE[16:37:22,714]: Docker command:
+  docker run --tty --detach \
+  --name x11docker_X103_manuellr-flameshot_86240835788 \
+  --user 1000:1000 \
+  --userns host \
+  --cap-drop ALL \
+  --security-opt no-new-privileges \
+  --security-opt label=type:container_runtime_t \
+  --volume '/usr/bin/docker-init':'/usr/local/bin/init':ro \
+  --tmpfs /run --tmpfs /run/lock \
+  --volume '/home/werner/.cache/x11docker/manuellr-flameshot-86240835788/share':'/x11docker':rw \
+  --volume '/tmp/.X11-unix/X103':'/X103':rw \
+  --workdir '/tmp' \
+  --entrypoint env \
+  --env 'container=docker' \
+  --env 'XAUTHORITY=/x11docker/Xauthority.client' \
+  --env 'DISPLAY=:103' \
+  --env 'USER=werner' \
+  -- manuellr/flameshot /usr/local/bin/init -- /bin/sh - /x11docker/containerrc
+x11docker[16:37:22,915]: Generated dockerrc:
+     1	#! /usr/bin/env bash
+     2	
+     3	# dockerrc:
+     4	#  This script runs as root (or member of group docker) on host.
+     5	#  - inspect image
+     6	#  - pull image if needed
+     7	#  - create containerrc
+     8	#  - set up systemd/elogind cgroup if needed
+     9	#  - run window manager in container or from host if needed
+    10	
+    11	trap '' SIGINT
+    12	
+    13	askyesno () 
+    14	{ 
+    15	    local Choice;
+    16	    read -t60 -n1 -p "(timeout after 60s assuming no) [Y|n]" Choice;
+    17	    [ "$?" = '0' ] && { 
+    18	        [[ "$Choice" == [YyJj]* ]] || [ -z "$Choice" ] && return 0
+    19	    };
+    20	    return 1
+    21	}
+    22	checkpid () 
+    23	{ 
+    24	    [ -e "/proc/${1:-NONSENSE}" ]
+    25	}
+    26	escapestring () 
+    27	{ 
+    28	    echo "${1:-}" | LC_ALL=C sed -e 's/[^a-zA-Z0-9,._+@=:/-]/\\&/g; '
+    29	}
+    30	mysleep () 
+    31	{ 
+    32	    sleep "${1:-1}" 2> /dev/null || sleep 1
+    33	}
+    34	pspid () 
+    35	{ 
+    36	    LC_ALL=C ps -p "${1:-}" 2> /dev/null | grep -v 'TIME'
+    37	}
+    38	rmcr () 
+    39	{ 
+    40	    case "${1:-}" in 
+    41	        "")
+    42	            sed "s/$(printf "\r")//g"
+    43	        ;;
+    44	        *)
+    45	            sed -i "s/$(printf "\r")//g" "${1:-}"
+    46	        ;;
+    47	    esac
+    48	}
+    49	rocknroll () 
+    50	{ 
+    51	    [ -s "$Timetosaygoodbyefile" ] && return 1;
+    52	    [ -e "$Timetosaygoodbyefile" ] || return 1;
+    53	    return 0
+    54	}
+    55	saygoodbye () 
+    56	{ 
+    57	    debugnote "time to say goodbye ($*)";
+    58	    [ -e "$Timetosaygoodbyefile" ] && echo timetosaygoodbye >> $Timetosaygoodbyefile;
+    59	    [ -e "$Timetosaygoodbyefifo" ] && echo timetosaygoodbye >> $Timetosaygoodbyefifo
+    60	}
+    61	storeinfo () 
+    62	{ 
+    63	    [ -e "$Storeinfofile" ] || return 1;
+    64	    case "${1:-}" in 
+    65	        dump)
+    66	            grep "^${2:-}=" $Storeinfofile | sed "s/^${2:-}=//"
+    67	        ;;
+    68	        drop)
+    69	            sed -i "/^${2:-}=/d" $Storeinfofile
+    70	        ;;
+    71	        test)
+    72	            grep -q "^${2:-}=" $Storeinfofile
+    73	        ;;
+    74	        *)
+    75	            debugnote "storeinfo(): ${1:-}";
+    76	            grep -q "^$(echo "${1:-}" | cut -d= -f1)=" $Storeinfofile && { 
+    77	                sed -i "/^$(echo "${1:-}" | cut -d= -f1)=/d" $Storeinfofile
+    78	            };
+    79	            echo "${1:-}" >> $Storeinfofile
+    80	        ;;
+    81	    esac
+    82	}
+    83	storepid () 
+    84	{ 
+    85	    case "${1:-}" in 
+    86	        dump)
+    87	            grep -w "${2:-}" "$Storepidfile" | cut -d' ' -f1
+    88	        ;;
+    89	        test)
+    90	            grep -q -w "${2:-}" "$Storepidfile"
+    91	        ;;
+    92	        *)
+    93	            echo "${1:-NOPID}" "${2:-NONAME}" >> "$Storepidfile";
+    94	            debugnote "storepid(): Stored pid '${1:-}' of '${2:-}': $(pspid ${1:-} ||:)"
+    95	        ;;
+    96	    esac
+    97	}
+    98	waitforlogentry () 
+    99	{ 
+   100	    local Startzeit Uhrzeit Dauer Count=0 Schlaf;
+   101	    local Errorkeys="${4:-}";
+   102	    local Warten="${5:-60}";
+   103	    local Error=;
+   104	    Startzeit="$(date +%s ||:)";
+   105	    Startzeit="${Startzeit:-0}";
+   106	    [ "$Warten" = "infinity" ] && Warten=32000;
+   107	    debugnote "waitforlogentry(): ${1:-}: Waiting for logentry \"${3:-}\" in $(basename ${2:-})";
+   108	    while ! grep -q "${3:-}" < "${2:-}"; do
+   109	        Count="$(( $Count + 1 ))";
+   110	        Uhrzeit="$(date +%s ||:)";
+   111	        Uhrzeit="${Uhrzeit:-0}";
+   112	        Dauer="$(( $Uhrzeit - $Startzeit ))";
+   113	        Schlaf="$(( $Count / 10 ))";
+   114	        [ "$Schlaf" = "0" ] && Schlaf="0.5";
+   115	        mysleep "$Schlaf";
+   116	        [ "$Dauer" -gt "10" ] && debugnote "waitforlogentry(): ${1:-}: Waiting since ${Dauer}s for log entry \"${3:-}\" in $(basename ${2:-})";
+   117	        [ "$Dauer" -gt "$Warten" ] && error "waitforlogentry(): ${1:-}: Timeout waiting for entry \"${3:-}\" in $(basename ${2:-})
+   118	  Last lines of $(basename ${2:-}):
+   119	$(tail "${2:-}")";
+   120	        [ "$Errorkeys" ] && grep -i -q -E "$Errorkeys" < "${2:-}" && error "waitforlogentry(): ${1:-}: Found error message in logfile.
+   121	  Last lines of logfile $(basename ${2:-}):
+   122	$(tail "${2:-}")";
+   123	        rocknroll || { 
+   124	            debugnote "waitforlogentry(): ${1:-}: Stopped waiting for ${3:-} in $(basename ${2:-}) due to terminating signal.";
+   125	            Error=1;
+   126	            break
+   127	        };
+   128	    done;
+   129	    [ "$Error" ] && return 1;
+   130	    debugnote "waitforlogentry(): ${1:-}: Found log entry \"${3:-}\" in $(basename ${2:-}).";
+   131	    return 0
+   132	}
+   133	
+   134	warning() {
+   135	  echo "$*:WARNING"   | sed "s/\$/ /" >>$Messagefile
+   136	}
+   137	note() {
+   138	  echo "$*:NOTE"      | sed "s/\$/ /" >>$Messagefile
+   139	}
+   140	verbose() {
+   141	  echo "$*:VERBOSE"   | sed "s/\$/ /" >>$Messagefile
+   142	}
+   143	debugnote() {
+   144	  echo "$*:DEBUGNOTE" | sed "s/\$/ /" >>$Messagefile
+   145	}
+   146	error() {
+   147	  echo "$*:ERROR"     | sed "s/\$/ /" >>$Messagefile
+   148	  exit 64
+   149	}
+   150	stdout() {
+   151	  echo "$*:STDOUT"    | sed "s/\$/ /" >>$Messagefile
+   152	}
+   153	
+   154	Containercommand=""
+   155	Imagename="manuellr/flameshot"
+   156	Messagefile='/home/werner/.cache/x11docker/manuellr-flameshot-86240835788/share/message.fifo'
+   157	Newxenv=' DISPLAY=:103 XAUTHORITY=/home/werner/.cache/x11docker/manuellr-flameshot-86240835788/share/Xauthority.client XSOCKET=/tmp/.X11-unix/X103 XDG_RUNTIME_DIR=/run/user/1000'
+   158	export PATH='/home/werner/.pyenv/plugins/pyenv-virtualenv/shims:/home/werner/.pyenv/shims:/home/werner/.pyenv/plugins/pyenv-virtualenv/shims:/home/werner/.pyenv/shims:/home/werner/.local/bin:/home/werner/Public/repo/github.com/mviereck/x11docker.git:/home/werner/.local/texlive/2020/bin/x86_64-linux:/opt/apache-maven/3.6.3/bin:/opt/openjdk/jdk-14.0.1/bin:/usr/local/nginx/sbin:/home/werner/Public/repo/github.com/smxi/inxi.git:/home/werner/Public/repo/github.com/junegunn/fzf.git/bin:/home/werner/.pyenv/bin:/home/werner/Public/repo/github.com/golang/go.git/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/werner/go/bin:'
+   159	Storeinfofile='/home/werner/.cache/x11docker/manuellr-flameshot-86240835788/share/store.info'
+   160	Storepidfile='/home/werner/.cache/x11docker/manuellr-flameshot-86240835788/store.pids'
+   161	Timetosaygoodbyefile='/home/werner/.cache/x11docker/manuellr-flameshot-86240835788/share/timetosaygoodbye'
+   162	Timetosaygoodbyefifo='/home/werner/.cache/x11docker/manuellr-flameshot-86240835788/share/timetosaygoodbye.fifo'
+   163	Xserver='--xephyr'
+   164	Workdir=''
+   165	
+   166	Containerarchitecture=
+   167	Containerid=
+   168	Containerip=
+   169	Dockerlogspid=''
+   170	Dockerpull=
+   171	Exec=
+   172	Entrypoint=
+   173	Failure=
+   174	Imageuser=
+   175	Inspect=
+   176	Line=
+   177	Pid1pid=
+   178	Runtime=
+   179	Signal=
+   180	Windowmanagermode=
+   181	Windowmanagercommand=
+   182	Wmcontainerid=
+   183	Wmdockercommand=
+   184	debugnote 'Running dockerrc: Setup as root or as user docker on host.'
+   185	
+   186	
+   187	# Check whether docker daemon is running, get docker info
+   188	docker info >>/home/werner/.cache/x11docker/manuellr-flameshot-86240835788/docker.info 2>>/home/werner/.cache/x11docker/manuellr-flameshot-86240835788/share/container.log  || {
+   189	  error "Calling docker daemon failed.
+   190	  Is docker daemon running at all?
+   191	  Try to start docker daemon with:   systemctl start docker
+   192	  Last lines of log:
+   193	$(rmcr < '/home/werner/.cache/x11docker/manuellr-flameshot-86240835788/share/container.log' | tail)"
+   194	}
+   195	
+   196	# Check default runtime
+   197	Runtime="$( { grep 'Default Runtime' < '/home/werner/.cache/x11docker/manuellr-flameshot-86240835788/docker.info' ||: ;} | awk '{print $3}' )"
+   198	debugnote "dockerrc: Found default Runtime: $Runtime"
+   199	debugnote "dockerrc: All $(grep 'Runtimes' < '/home/werner/.cache/x11docker/manuellr-flameshot-86240835788/docker.info' ||: )"
+   200	[ "$Runtime" != '' ] && {
+   201	  case $Runtime in
+   202	    kata-runtime)  warning 'Found default docker runtime kata-runtime.
+   203	  Please run x11docker with --runtime=kata-runtime to avoid issues.' ;;
+   204	    nvidia) [ 'no' = 'yes' ] &&  warning 'Option --gpu: Found default docker runtime nvidia.
+   205	  Please run x11docker with --runtime=nvidia to avoid issues.' ;;
+   206	    runc|crun|oci) ;;
+   207	    *) note "Found unknown container runtime: $Runtime
+   208	  Please report at:  https://github.com/mviereck/x11docker" ;;
+   209	  esac
+   210	}
+   211	debugnote "dockerrc: Container Runtime: $Runtime"
+   212	storeinfo "runtime=$Runtime"
+   213	
+   214	# Refresh images.list for x11docker-gui
+   215	docker images 2>>/home/werner/.cache/x11docker/manuellr-flameshot-86240835788/share/container.log | grep -v REPOSITORY | awk '{print $1 ":" $2}' >>/home/werner/.cache/x11docker/docker.imagelist.sort
+   216	rmcr /home/werner/.cache/x11docker/docker.imagelist.sort
+   217	while read -r Line ; do
+   218	  grep -q "<none>" <<<$Line || echo $Line >> /home/werner/.cache/x11docker/docker.imagelist
+   219	done < <(sort < /home/werner/.cache/x11docker/docker.imagelist.sort)
+   220	rm /home/werner/.cache/x11docker/docker.imagelist.sort
+   221	
+   222	# Check if image manuellr/flameshot is available locally
+   223	Dockerpull=no
+   224	grep -x -q 'manuellr/flameshot' < /home/werner/.cache/x11docker/docker.imagelist || grep -x -q 'manuellr/flameshot:latest' < /home/werner/.cache/x11docker/docker.imagelist || {
+   225	  docker inspect manuellr/flameshot >>/home/werner/.cache/x11docker/manuellr-flameshot-86240835788/share/container.log 2>&1 || {
+   226	    echo 'Image manuellr/flameshot not found locally.' >&2
+   227	    echo 'Do you want to pull it from docker hub?' >&2
+   228	    askyesno && Dockerpull=yes || error "Image 'manuellr/flameshot' not available locally and not pulled from docker hub."
+   229	  }
+   230	}
+   231	
+   232	rocknroll || exit 64
+   233	
+   234	[ "$Dockerpull" = 'yes' ] && {
+   235	  note "Pulling image 'manuellr/flameshot' from docker hub"
+   236	   docker pull manuellr/flameshot 1>&2 || error "Pulling docker image 'manuellr/flameshot' seems to have failed!"
+   237	}
+   238	
+   239	rocknroll || exit 64
+   240	
+   241	Inspect="$(docker inspect manuellr/flameshot --format='{{.Config.Entrypoint}}{{.Config.Cmd}}[{{.Config.User}}][{{.Config.WorkingDir}}][{{.Architecture}}]')"
+   242	
+   243	# Check architecture
+   244	Containerarchitecture="$(cut -d[ -f6 <<< "$Inspect" | cut -d] -f1)"
+   245	debugnote "dockerrc: Image architecture: $Containerarchitecture"
+   246	# Check CMD
+   247	[ -z "$Containercommand" ] && {
+   248	  # extract image command from image if not given on cli
+   249	  Containercommand="$(cut -d] -f2 <<< "$Inspect" | cut -d[ -f2)"
+   250	  debugnote "dockerrc: Image CMD: $Containercommand"
+   251	  echo "$Containercommand" | grep -q /x11docker/containerrc && error 'Recursion error: Found CMD /x11docker/containerrc in image.
+   252	  Did you use docker commit with an x11docker container?
+   253	  Please build new images with a Dockerfile instead of using docker commit,
+   254	  or provide a different container command.'
+   255	}
+   256	
+   257	# Check USER
+   258	Imageuser="$(cut -d[ -f4 <<< "$Inspect" | cut -d] -f1)"
+   259	debugnote "dockerrc: Image USER: $Imageuser"
+   260	[ "$Imageuser" ] && note "Found 'USER $Imageuser' in image.
+   261	  If you want to run with user $Imageuser instead of host user werner,
+   262	  than run with --user=RETAIN."
+   263	storeinfo containeruser="werner"
+   264	
+   265	# Check ENTRYPOINT
+   266	Entrypoint="$(cut -d] -f1 <<< "$Inspect" | cut -d[ -f2)"
+   267	debugnote "dockerrc: Image ENTRYPOINT: $Entrypoint"
+   268	echo "$Entrypoint" | grep -qE 'tini|init|systemd' && {
+   269	  note "There seems to be an init system in ENTRYPOINT of image:
+   270	    $Entrypoint
+   271	  Will disable it as x11docker already runs an init with option --tini.
+   272	  To allow this ENTRYPOINT, run x11docker with option --init=none."
+   273	  Entrypoint=
+   274	}
+   275	
+   276	# Check WORKDIR
+   277	Workdir="$(cut -d[ -f5 <<< "$Inspect" | cut -d] -f1)"
+   278	debugnote "dockerrc: Image WORKDIR: $Workdir"
+   279	[ "$Workdir" ] && note "Found 'WORKDIR $Workdir' in image. 
+   280	  You can change it with option --workdir=DIR."
+   281	
+   282	[ -z "$Containercommand$Entrypoint" ] && error 'No container command specified and no CMD or ENTRYPOINT found in image.'
+   283	
+   284	######## Create containerrc ########
+   285	
+   286	{ echo '#! /bin/sh'
+   287	  echo ''
+   288	  echo '# containerrc'
+   289	  echo '# Created startscript for docker run used as container command.'
+   290	  echo '# Runs as unprivileged user in container.'
+   291	  echo ''
+   292	  echo ''
+   293	  echo 'mysleep () 
+   294	{ 
+   295	    sleep "${1:-1}" 2> /dev/null || sleep 1
+   296	}'
+   297	  echo 'rocknroll () 
+   298	{ 
+   299	    [ -s "$Timetosaygoodbyefile" ] && return 1;
+   300	    [ -e "$Timetosaygoodbyefile" ] || return 1;
+   301	    return 0
+   302	}'
+   303	  echo 'saygoodbye () 
+   304	{ 
+   305	    debugnote "time to say goodbye ($*)";
+   306	    [ -e "$Timetosaygoodbyefile" ] && echo timetosaygoodbye >> $Timetosaygoodbyefile;
+   307	    [ -e "$Timetosaygoodbyefifo" ] && echo timetosaygoodbye >> $Timetosaygoodbyefifo
+   308	}'
+   309	  echo 'storeinfo () 
+   310	{ 
+   311	    [ -e "$Storeinfofile" ] || return 1;
+   312	    case "${1:-}" in 
+   313	        dump)
+   314	            grep "^${2:-}=" $Storeinfofile | sed "s/^${2:-}=//"
+   315	        ;;
+   316	        drop)
+   317	            sed -i "/^${2:-}=/d" $Storeinfofile
+   318	        ;;
+   319	        test)
+   320	            grep -q "^${2:-}=" $Storeinfofile
+   321	        ;;
+   322	        *)
+   323	            debugnote "storeinfo(): ${1:-}";
+   324	            grep -q "^$(echo "${1:-}" | cut -d= -f1)=" $Storeinfofile && { 
+   325	                sed -i "/^$(echo "${1:-}" | cut -d= -f1)=/d" $Storeinfofile
+   326	            };
+   327	            echo "${1:-}" >> $Storeinfofile
+   328	        ;;
+   329	    esac
+   330	}'
+   331	  echo 'waitforlogentry () 
+   332	{ 
+   333	    local Startzeit Uhrzeit Dauer Count=0 Schlaf;
+   334	    local Errorkeys="${4:-}";
+   335	    local Warten="${5:-60}";
+   336	    local Error=;
+   337	    Startzeit="$(date +%s ||:)";
+   338	    Startzeit="${Startzeit:-0}";
+   339	    [ "$Warten" = "infinity" ] && Warten=32000;
+   340	    debugnote "waitforlogentry(): ${1:-}: Waiting for logentry \"${3:-}\" in $(basename ${2:-})";
+   341	    while ! grep -q "${3:-}" < "${2:-}"; do
+   342	        Count="$(( $Count + 1 ))";
+   343	        Uhrzeit="$(date +%s ||:)";
+   344	        Uhrzeit="${Uhrzeit:-0}";
+   345	        Dauer="$(( $Uhrzeit - $Startzeit ))";
+   346	        Schlaf="$(( $Count / 10 ))";
+   347	        [ "$Schlaf" = "0" ] && Schlaf="0.5";
+   348	        mysleep "$Schlaf";
+   349	        [ "$Dauer" -gt "10" ] && debugnote "waitforlogentry(): ${1:-}: Waiting since ${Dauer}s for log entry \"${3:-}\" in $(basename ${2:-})";
+   350	        [ "$Dauer" -gt "$Warten" ] && error "waitforlogentry(): ${1:-}: Timeout waiting for entry \"${3:-}\" in $(basename ${2:-})
+   351	  Last lines of $(basename ${2:-}):
+   352	$(tail "${2:-}")";
+   353	        [ "$Errorkeys" ] && grep -i -q -E "$Errorkeys" < "${2:-}" && error "waitforlogentry(): ${1:-}: Found error message in logfile.
+   354	  Last lines of logfile $(basename ${2:-}):
+   355	$(tail "${2:-}")";
+   356	        rocknroll || { 
+   357	            debugnote "waitforlogentry(): ${1:-}: Stopped waiting for ${3:-} in $(basename ${2:-}) due to terminating signal.";
+   358	            Error=1;
+   359	            break
+   360	        };
+   361	    done;
+   362	    [ "$Error" ] && return 1;
+   363	    debugnote "waitforlogentry(): ${1:-}: Found log entry \"${3:-}\" in $(basename ${2:-}).";
+   364	    return 0
+   365	}'
+   366	  echo '
+   367	warning() {
+   368	  echo "$*:WARNING"   | sed "s/\$/ /" >>$Messagefile
+   369	}
+   370	note() {
+   371	  echo "$*:NOTE"      | sed "s/\$/ /" >>$Messagefile
+   372	}
+   373	verbose() {
+   374	  echo "$*:VERBOSE"   | sed "s/\$/ /" >>$Messagefile
+   375	}
+   376	debugnote() {
+   377	  echo "$*:DEBUGNOTE" | sed "s/\$/ /" >>$Messagefile
+   378	}
+   379	error() {
+   380	  echo "$*:ERROR"     | sed "s/\$/ /" >>$Messagefile
+   381	  exit 64
+   382	}
+   383	stdout() {
+   384	  echo "$*:STDOUT"    | sed "s/\$/ /" >>$Messagefile
+   385	}'
+   386	  echo 'Messagefile=/x11docker/message.fifo'
+   387	  echo 'Storeinfofile=/x11docker/store.info'
+   388	  echo 'Timetosaygoodbyefile=/x11docker/timetosaygoodbye'
+   389	  echo ''
+   390	  echo 'waitforlogentry containerrc $Storeinfofile containerrootrc=ready  infinity'
+   391	  echo 'debugnote "Running containerrc: Unprivileged user commands in container"'
+   392	  echo ''
+   393	  echo "Containercommand=\"$Containercommand\""
+   394	  echo "Entrypoint=\"$Entrypoint\""
+   395	  echo ''
+   396	  echo 'verbose "containerrc: Container system:'
+   397	  echo '$(cat /etc/os-release 2>&1 ||:)"'
+   398	  echo ''
+   399	} >> /home/werner/.cache/x11docker/manuellr-flameshot-86240835788/share/containerrc
+   400	{
+   401	  echo ''
+   402	  echo '# USER and HOME'
+   403	  echo 'Containeruser="$(storeinfo dump containeruser)"'
+   404	  echo 'Containeruserhome="/home/werner"'
+   405	  echo 'export USER="$Containeruser"'
+   406	  echo 'export HOME="$Containeruserhome"'
+   407	  echo ''
+   408	  echo '# XDG_RUNTIME_DIR'
+   409	  echo 'Containeruseruid=$(id -u $Containeruser)'
+   410	  echo 'export XDG_RUNTIME_DIR=/tmp/XDG_RUNTIME_DIR'
+   411	  echo '[ -e /run/user/$Containeruseruid ] && ln -s /run/user/$Containeruseruid $XDG_RUNTIME_DIR || mkdir -p -m700 $XDG_RUNTIME_DIR'
+   412	  echo ''
+   413	  echo '# Copy files from /etc/skel into empty HOME'
+   414	  echo '[ -d /etc/skel ] && [ -z "$(ls -A "$Containeruserhome" 2>/dev/null | grep -v -E "gnupg")" ] && {'
+   415	  echo '  debugnote "containerrc: HOME is empty. Copying from /etc/skel"'
+   416	  echo '  cp -n -R /etc/skel/. $Containeruserhome'
+   417	  echo '  :'
+   418	  echo '} || {'
+   419	  echo '  debugnote "containerrc: HOME is not empty. Not copying from /etc/skel"'
+   420	  echo '}'
+   421	  echo ''
+   422	  echo '# Create softlink to X unix socket'
+   423	  echo '[ -e /tmp/.X11-unix/X103 ] || ln -s /X103 /tmp/.X11-unix'
+   424	  echo ''
+   425	  echo 'unset WAYLAND_DISPLAY'
+   426	  echo ''
+   427	  echo 'export XDG_SESSION_TYPE=x11'
+   428	  echo ''
+   429	  echo ''
+   430	  echo 'export TERM=xterm'
+   431	  echo 'storeinfo test locale && export LANG="$(storeinfo dump locale)"'
+   432	  echo '[ -e "/usr/share/zoneinfo/Asia/Shanghai" ] || export TZ=UTC-08'
+   433	  echo '[ "$(date -Ihours)" != "2021-01-16T16+08:00" ] && export TZ=UTC-08'
+   434	  echo '[ "$DEBIAN_FRONTEND" = noninteractive ] && unset DEBIAN_FRONTEND && export DEBIAN_FRONTEND'
+   435	  echo '[ "$DEBIAN_FRONTEND" = newt ]           && unset DEBIAN_FRONTEND && export DEBIAN_FRONTEND'
+   436	  echo '# container environment (--env)'
+   437	  echo "export 'container=docker'"
+   438	  echo "export 'XAUTHORITY=/x11docker/Xauthority.client'"
+   439	  echo "export 'DISPLAY=:103'"
+   440	  echo "export 'USER=werner'"
+   441	  echo ''
+   442	  echo 'env >> /x11docker/container.environment'
+   443	  echo 'verbose "Container environment:'
+   444	  echo '$(env | sort)"'
+   445	  echo ''
+   446	  echo 'cd "$HOME"'
+   447	  [ "$Workdir" ] && echo "[ -d \"$Workdir\" ] && cd \"$Workdir\"    # WORKDIR in image"
+   448	  echo ''
+   449	  echo 'tail -f /x11docker/stdout     2>/dev/null &'
+   450	  echo 'tail -f /x11docker/stderr >&2 2>/dev/null &'
+   451	  echo "exec \$Dbus sh /x11docker/cmdrc >>/x11docker/stdout 2>>/x11docker/stderr"
+   452	} >> /home/werner/.cache/x11docker/manuellr-flameshot-86240835788/share/containerrc
+   453	######## End of containerrc ########
+   454	
+   455	# Write containerrc into x11docker.log
+   456	nl -ba >> /home/werner/.cache/x11docker/manuellr-flameshot-86240835788/share/x11docker.log < /home/werner/.cache/x11docker/manuellr-flameshot-86240835788/share/containerrc
+   457	
+   458	######## Create cmdrc ########
+   459	{ echo '#! /bin/sh'
+   460	  echo '# Created startscript for cmdrc containing final container command'
+   461	  echo ''
+   462	  echo 'storeinfo () 
+   463	{ 
+   464	    [ -e "$Storeinfofile" ] || return 1;
+   465	    case "${1:-}" in 
+   466	        dump)
+   467	            grep "^${2:-}=" $Storeinfofile | sed "s/^${2:-}=//"
+   468	        ;;
+   469	        drop)
+   470	            sed -i "/^${2:-}=/d" $Storeinfofile
+   471	        ;;
+   472	        test)
+   473	            grep -q "^${2:-}=" $Storeinfofile
+   474	        ;;
+   475	        *)
+   476	            debugnote "storeinfo(): ${1:-}";
+   477	            grep -q "^$(echo "${1:-}" | cut -d= -f1)=" $Storeinfofile && { 
+   478	                sed -i "/^$(echo "${1:-}" | cut -d= -f1)=/d" $Storeinfofile
+   479	            };
+   480	            echo "${1:-}" >> $Storeinfofile
+   481	        ;;
+   482	    esac
+   483	}'
+   484	  echo '
+   485	warning() {
+   486	  echo "$*:WARNING"   | sed "s/\$/ /" >>$Messagefile
+   487	}
+   488	note() {
+   489	  echo "$*:NOTE"      | sed "s/\$/ /" >>$Messagefile
+   490	}
+   491	verbose() {
+   492	  echo "$*:VERBOSE"   | sed "s/\$/ /" >>$Messagefile
+   493	}
+   494	debugnote() {
+   495	  echo "$*:DEBUGNOTE" | sed "s/\$/ /" >>$Messagefile
+   496	}
+   497	error() {
+   498	  echo "$*:ERROR"     | sed "s/\$/ /" >>$Messagefile
+   499	  exit 64
+   500	}
+   501	stdout() {
+   502	  echo "$*:STDOUT"    | sed "s/\$/ /" >>$Messagefile
+   503	}'
+   504	  echo 'Messagefile=/x11docker/message.fifo'
+   505	  echo "debugnote \"cmdrc: Running container command: 
+   506	  $Entrypoint $Containercommand
+   507	  \""
+   508	  echo ''
+   509	  echo "$Entrypoint $Containercommand  "
+   510	  echo ''
+   511	  echo '[ -h "$Homesoftlink" ] && rm $Homesoftlink'
+   512	  echo "storeinfo cmdexitcode=\$?"
+   513	} >> /home/werner/.cache/x11docker/manuellr-flameshot-86240835788/share/cmdrc
+   514	######## End of cmdrc ########
+   515	
+   516	# Write cmdrc into x11docker.log
+   517	nl -ba >> /home/werner/.cache/x11docker/manuellr-flameshot-86240835788/share/x11docker.log < /home/werner/.cache/x11docker/manuellr-flameshot-86240835788/share/cmdrc
+   518	
+   519	# Send signal to run X and wait for X to be ready
+   520	storeinfo readyforX=ready
+   521	waitforlogentry 'dockerrc' /home/werner/.cache/x11docker/manuellr-flameshot-86240835788/xinit.log 'xinitrc is ready' 'xinit: giving up|unable to connect to X server|Connection refused|server error|Only console users are allowed'
+   522	
+   523	rocknroll || exit 64
+   524	
+   525	# run window manager (in image or from host)
+   526	Windowmanagermode="container"
+   527	Windowmanagercommand="x11docker/openbox sh -c 'openbox --sm-disable --config-file /etc/x11docker/openbox-nomenu.rc'"
+   528	Wmdockercommand="docker run --detach \
+   529	  --name x11docker_X103_manuellr-flameshot_86240835788_WM \
+   530	  --user 1999:1999 \
+   531	  --cap-drop=ALL   --security-opt=no-new-privileges   --security-opt label=type:container_runtime_t \
+   532	  --volume '/home/werner/.cache/x11docker/manuellr-flameshot-86240835788/share/Xauthority.client':'/x11docker/Xauthority.client':rw \
+   533	  --volume '/tmp/.X11-unix/X103':'/tmp/.X11-unix/X103':rw \
+   534	  --env 'XAUTHORITY=/x11docker/Xauthority.client' \
+   535	  --env 'DISPLAY=:103'"
+   536	[ "$Windowmanagermode" = "container" ] && {
+   537	  docker inspect "$(cut -d' ' -f1 <<<"$Windowmanagercommand")" >>/home/werner/.cache/x11docker/manuellr-flameshot-86240835788/share/container.log 2>&1 && {
+   538	    Wmdockercommand="$Wmdockercommand \
+   539	  -- $Windowmanagercommand"
+   540	    debugnote "dockerrc: Window manager container: Generated docker command:
+   541	$Wmdockercommand"
+   542	    note "Option --wm: Starting window manager image: x11docker/openbox sh -c 'openbox --sm-disable --config-file /etc/x11docker/openbox-nomenu.rc'"
+   543	    Wmcontainerid="$(eval $Wmdockercommand)"
+   544	    [ "$Wmcontainerid" ] && {
+   545	      debugnote "dockerrc: Window manager container: $Wmcontainerid"
+   546	      for ((Count=1 ; Count<=10 ; Count++)); do
+   547	        Pid1pid="$(docker inspect --format '{{.State.Pid}}' $Wmcontainerid 2>>/home/werner/.cache/x11docker/manuellr-flameshot-86240835788/share/container.log | rmcr)"
+   548	        debugnote "dockerrc: Window manager container: $Count. check for PID 1: $Pid1pid"
+   549	        checkpid "$Pid1pid" && break
+   550	        rocknroll || exit 64
+   551	        mysleep 0.2
+   552	      done
+   553	    }
+   554	    checkpid "$Pid1pid" && storepid "$Pid1pid" wmcontainerpid1
+   555	    checkpid "$Pid1pid" || { note "Option --wm: Failed to run window manager image: $Windowmanagercommand." && Windowmanagermode=host ; }
+   556	  } || {
+   557	    note "Option --wm: Did not find window manager image
+   558	      $(cut -d' ' -f1 <<<"$Windowmanagercommand")
+   559	  to provide a containerized window manager. Please run:
+   560	      docker pull x11docker/openbox
+   561	  If you want to use a host window manager instead and avoid this warning,
+   562	  use option                         --wm=host  or  --wm=COMMAND
+   563	  or provide a local image with e.g. --wm=x11docker/fvwm
+   564	  To run without a window manager:   --wm=none  or  --desktop
+   565	  Fallback: Will try to run a host window manager: mutter"
+   566	    Windowmanagermode=host
+   567	  }
+   568	}
+   569	[ "$Windowmanagermode" = "host" ] && {
+   570	  command -v mutter >/dev/null || note 'Did not find a host window manager.
+   571	  Please pull image x11docker/openbox or provide a recommended one:
+   572	  xfwm4 metacity marco openbox sawfish'
+   573	  note 'Option --wm: Starting host window manager: mutter'
+   574	  [ "$(id -u)" = '0' ]  && su werner -c 'env  DISPLAY=:103 XAUTHORITY=/home/werner/.cache/x11docker/manuellr-flameshot-86240835788/share/Xauthority.client XSOCKET=/tmp/.X11-unix/X103 XDG_RUNTIME_DIR=/run/user/1000 mutter >>/home/werner/.cache/x11docker/manuellr-flameshot-86240835788/xinit.log 2>&1 & storepid $! windowmanager' || \
+   575	                                               env  DISPLAY=:103 XAUTHORITY=/home/werner/.cache/x11docker/manuellr-flameshot-86240835788/share/Xauthority.client XSOCKET=/tmp/.X11-unix/X103 XDG_RUNTIME_DIR=/run/user/1000 mutter >>/home/werner/.cache/x11docker/manuellr-flameshot-86240835788/xinit.log 2>&1 & storepid $! windowmanager
+   576	}
+   577	
+   578	rocknroll || exit 64
+   579	
+   580	
+   581	#### run docker image ####
+   582	read Containerid < <(docker run --tty --detach \
+   583	  --name x11docker_X103_manuellr-flameshot_86240835788 \
+   584	  --user 1000:1000 \
+   585	  --userns host \
+   586	  --cap-drop ALL \
+   587	  --security-opt no-new-privileges \
+   588	  --security-opt label=type:container_runtime_t \
+   589	  --volume '/usr/bin/docker-init':'/usr/local/bin/init':ro \
+   590	  --tmpfs /run --tmpfs /run/lock \
+   591	  --volume '/home/werner/.cache/x11docker/manuellr-flameshot-86240835788/share':'/x11docker':rw \
+   592	  --volume '/tmp/.X11-unix/X103':'/X103':rw \
+   593	  --workdir '/tmp' \
+   594	  --entrypoint env \
+   595	  --env 'container=docker' \
+   596	  --env 'XAUTHORITY=/x11docker/Xauthority.client' \
+   597	  --env 'DISPLAY=:103' \
+   598	  --env 'USER=werner' \
+   599	  -- manuellr/flameshot /usr/local/bin/init -- /bin/sh - /x11docker/containerrc | rmcr)
+   600	##########################
+   601	
+   602	
+   603	[ "$Containerid" ] || {
+   604	    error "Startup of docker failed. Did not receive a container ID.
+   605	    
+   606	  Last lines of container log:
+   607	$(rmcr < /home/werner/.cache/x11docker/manuellr-flameshot-86240835788/share/container.log | tail)"
+   608	}
+   609	storeinfo containerid="$Containerid"
+   610	# Wait for container to be ready
+   611	for ((Count=1 ; Count<=40 ; Count++)); do
+   612	  docker exec x11docker_X103_manuellr-flameshot_86240835788 sh -c : 2>&1 | rmcr >>/home/werner/.cache/x11docker/manuellr-flameshot-86240835788/share/container.log && { debugnote 'dockerrc: Container is up and running.' ; break ; } || debugnote "dockerrc: Container not ready on $Count. attempt, trying again."
+   613	  rocknroll || exit 64
+   614	  mysleep 0.1
+   615	done
+   616	
+   617	# Wait for pid 1 in container
+   618	for ((Count=1 ; Count<=40 ; Count++)); do
+   619	  Pid1pid="$(docker inspect --format '{{.State.Pid}}' x11docker_X103_manuellr-flameshot_86240835788 2>>/home/werner/.cache/x11docker/manuellr-flameshot-86240835788/share/container.log | rmcr)"
+   620	  debugnote "dockerrc: $Count. check for PID 1: $Pid1pid"
+   621	  checkpid "$Pid1pid" && break
+   622	  rocknroll || exit 64
+   623	  mysleep 0.1
+   624	done
+   625	[ "$Pid1pid" = "0" ] && Pid1pid=""
+   626	[ -z "$Pid1pid" ] && error "dockerrc(): Did not receive PID of PID1 in container.
+   627	  Maybe the container immediately stopped for unknown reasons.
+   628	  Just in case, check if host and image architecture are compatible:
+   629	  Host architecture: amd64 (x86_64), image architecture: $Containerarchitecture.
+   630	  Output of \"docker ps | grep x11docker\":
+   631	$(docker ps | grep x11docker)
+   632	  
+   633	  Content of container log:
+   634	$(rmcr < /home/werner/.cache/x11docker/manuellr-flameshot-86240835788/share/container.log | uniq )"
+   635	storeinfo pid1pid="$Pid1pid"
+   636	
+   637	# Get IP of container
+   638	Containerip="$(docker inspect --format '{{ .NetworkSettings.IPAddress }}' x11docker_X103_manuellr-flameshot_86240835788 2>>/home/werner/.cache/x11docker/manuellr-flameshot-86240835788/share/container.log)"
+   639	storeinfo containerip=$Containerip
+   640	
+   641	# Check log for startup failure
+   642	Failure="$(rmcr < /home/werner/.cache/x11docker/manuellr-flameshot-86240835788/share/container.log | grep -v grep | grep -E 'Error response from daemon|OCI runtime exec' ||:)"
+   643	[ "$Failure" ] && {
+   644	  echo "$Failure" >>/home/werner/.cache/x11docker/manuellr-flameshot-86240835788/share/container.log
+   645	  error "Got error message from docker daemon:
+   646	$Failure
+   647	
+   648	  Last lines of logfile:
+   649	$(tail /home/werner/.cache/x11docker/manuellr-flameshot-86240835788/share/container.log)"
+   650	}
+   651	
+   652	debugnote 'dockerrc(): Starting containerrootrc with privileged docker exec'
+   653	# copy containerrootrc inside of container to avoid possible noexec of host home.
+   654	docker exec --privileged x11docker_X103_manuellr-flameshot_86240835788 sh -c 'cp /x11docker/containerrootrc /tmp/containerrootrc ; chmod 644 /tmp/containerrootrc' 2>&1 | rmcr >>/home/werner/.cache/x11docker/manuellr-flameshot-86240835788/share/container.log
+   655	# run container root setup. containerrc will wait until setup script is ready.
+   656	docker exec --privileged -u root x11docker_X103_manuellr-flameshot_86240835788 /bin/sh /tmp/containerrootrc 2>&1 | rmcr >>/home/werner/.cache/x11docker/manuellr-flameshot-86240835788/share/container.log
+   657	
+   658	storeinfo dockerrc=ready
+   659	
+   660	[ "$Containerid" ] || [ "$Wmcontainerid" ] && {
+   661	  # wait for signal of finish()
+   662	  read Signal </home/werner/.cache/x11docker/manuellr-flameshot-86240835788/dockerrc.stopfifo
+   663	  [ "$Signal" = "stop" ] && {
+   664	    [ "$Containerid" ]   && docker stop $Containerid     >> /home/werner/.cache/x11docker/manuellr-flameshot-86240835788/share/container.log 2>&1 &
+   665	    [ "$Wmcontainerid" ] && docker stop $Wmcontainerid   >> /home/werner/.cache/x11docker/manuellr-flameshot-86240835788/share/container.log 2>&1 &
+   666	    [ "$Dockerlogspid" ] && kill $Dockerlogspid              >> /home/werner/.cache/x11docker/manuellr-flameshot-86240835788/share/container.log 2>&1 &
+   667	  }
+   668	} & storepid $! dockerstopshell
+   669	exit 0
+
+x11docker[16:37:23,003]: Generated containerrootrc:
+     1	#! /bin/sh
+     2	
+     3	# containerrootrc
+     4	# This Script is executed as root in container.
+     5	# - Create container user
+     6	# - Time zone
+     7	# - Install NVIDIA driver if requested
+     8	# - Set up init system services and DBus for --init=systemd|openrc|runit|sysvinit
+     9	
+    10	# redirect output to have it available before 'docker logs' starts. --init=runit (void) would eat up the output at all for unknown reasons.
+    11	exec 1>>/x11docker/container.log 2>&1
+    12	
+    13	storeinfo () 
+    14	{ 
+    15	    [ -e "$Storeinfofile" ] || return 1;
+    16	    case "${1:-}" in 
+    17	        dump)
+    18	            grep "^${2:-}=" $Storeinfofile | sed "s/^${2:-}=//"
+    19	        ;;
+    20	        drop)
+    21	            sed -i "/^${2:-}=/d" $Storeinfofile
+    22	        ;;
+    23	        test)
+    24	            grep -q "^${2:-}=" $Storeinfofile
+    25	        ;;
+    26	        *)
+    27	            debugnote "storeinfo(): ${1:-}";
+    28	            grep -q "^$(echo "${1:-}" | cut -d= -f1)=" $Storeinfofile && { 
+    29	                sed -i "/^$(echo "${1:-}" | cut -d= -f1)=/d" $Storeinfofile
+    30	            };
+    31	            echo "${1:-}" >> $Storeinfofile
+    32	        ;;
+    33	    esac
+    34	}
+    35	rocknroll () 
+    36	{ 
+    37	    [ -s "$Timetosaygoodbyefile" ] && return 1;
+    38	    [ -e "$Timetosaygoodbyefile" ] || return 1;
+    39	    return 0
+    40	}
+    41	
+    42	warning() {
+    43	  echo "$*:WARNING"   | sed "s/\$/ /" >>$Messagefile
+    44	}
+    45	note() {
+    46	  echo "$*:NOTE"      | sed "s/\$/ /" >>$Messagefile
+    47	}
+    48	verbose() {
+    49	  echo "$*:VERBOSE"   | sed "s/\$/ /" >>$Messagefile
+    50	}
+    51	debugnote() {
+    52	  echo "$*:DEBUGNOTE" | sed "s/\$/ /" >>$Messagefile
+    53	}
+    54	error() {
+    55	  echo "$*:ERROR"     | sed "s/\$/ /" >>$Messagefile
+    56	  exit 64
+    57	}
+    58	stdout() {
+    59	  echo "$*:STDOUT"    | sed "s/\$/ /" >>$Messagefile
+    60	}
+    61	Messagefile=/x11docker/message.fifo
+    62	Storeinfofile='/x11docker/store.info'
+    63	Timetosaygoodbyefile=/x11docker/timetosaygoodbye
+    64	
+    65	debugnote 'Running containerrootrc: Setup as root in container'
+    66	
+    67	Error=''
+    68	for Line in cat chmod chown cut cd cp date echo env export grep id ln ls mkdir mv printf rm sed sh sleep tail touch; do
+    69	  command -v "$Line" || {
+    70	    warning "ERROR: Command not found in image: $Line"
+    71	    Error=1
+    72	  }
+    73	done
+    74	[ "$Error" ] && error 'Commands for container setup missing in image.
+    75	  You can try with option --no-setup to avoid this error.'
+    76	
+    77	# Check type of libc
+    78	ldd --version 2>&1 | grep -q 'musl libc' && Containerlibc='musl'
+    79	ldd --version 2>&1 | grep -q -E 'GLIBC|GNU libc'  && Containerlibc='glibc'
+    80	debugnote "containerrootrc: Container libc: $Containerlibc"
+    81	
+    82	# Prepare X environment
+    83	# Create some system dirs with needed permissions
+    84	mkdir -v -p /var/lib/dbus /var/run/dbus
+    85	mkdir -v -p -m 1777 /tmp/.ICE-unix /tmp/.X11-unix /tmp/.font-unix
+    86	chmod -c 1777 /tmp/.ICE-unix /tmp/.X11-unix /tmp/.font-unix
+    87	export DISPLAY=:103 XAUTHORITY=/x11docker/Xauthority.client
+    88	
+    89	# workaround: autostart of xrandr for some desktops like deepin, cinnamon and gnome to fix wrong autoresize
+    90	echo '#! /bin/sh
+    91	Output=$(xrandr | grep ' connected' | cut -d" " -f1)
+    92	Mode=1824x984
+    93	xrandr --output $Output --mode $Mode\n' > /usr/local/bin/x11docker-xrandr
+    94	chmod +x /usr/local/bin/x11docker-xrandr
+    95	mkdir -p /etc/xdg/autostart
+    96	echo '[Desktop Entry]
+    97	Encoding=UTF-8
+    98	Version=0.9.4
+    99	Type=Application
+   100	Name=x11docker-xrandr
+   101	Comment=
+   102	Exec=/usr/local/bin/x11docker-xrandr
+   103	' > /etc/xdg/autostart/x11docker-xrandr.desktop
+   104	
+   105	# Time zone
+   106	[ ! -d /usr/share/zoneinfo ] && [ "$Containerlibc" = "glibc" ] && {
+   107	  mkdir -p /usr/share/zoneinfo/Asia
+   108	  cp '/x11docker/libc.localtime' '/usr/share/zoneinfo/Asia/Shanghai'
+   109	}
+   110	[ -e '/usr/share/zoneinfo/Asia/Shanghai' ] && ln -f -s '/usr/share/zoneinfo/Asia/Shanghai' /etc/localtime
+   111	
+   112	# Container system
+   113	Containersystem="$(grep '^ID=' /etc/os-release 2>/dev/null | cut -d= -f2 || echo 'unknown')"
+   114	verbose "Container system ID: $Containersystem"
+   115	
+   116	# Environment variables
+   117	export 'container=docker'
+   118	export 'XAUTHORITY=/x11docker/Xauthority.client'
+   119	export 'DISPLAY=:103'
+   120	export 'USER=werner'
+   121	
+   122	# Check container user
+   123	Containeruser="$(storeinfo dump containeruser)"
+   124	
+   125	Containeruserhome='/home/werner'
+   126	# Create user entry in /etc/passwd (and delete possibly existing same uid)
+   127	cat /etc/passwd | grep -v ':1000:' > /tmp/passwd
+   128	
+   129	# Disable possible /etc/shadow passwords for other users
+   130	sed -i 's%:x:%:-:%' /tmp/passwd
+   131	bash --version >/dev/null 2>&1 && Containerusershell=/bin/bash || Containerusershell=/bin/sh
+   132	Containeruserentry="werner:x:1000:1000:werner,,,:/home/werner:$Containerusershell"
+   133	debugnote "containerrootrc: $Containeruserentry"
+   134	echo "$Containeruserentry" >> /tmp/passwd
+   135	
+   136	rm /etc/passwd
+   137	mv /tmp/passwd /etc/passwd || warning 'Unable to change /etc/passwd. That may be a security risk.'
+   138	
+   139	# Create password entry for container user in /etc/shadow
+   140	rm -v /etc/shadow || warning 'Cannot change /etc/shadow. That may be a security risk.'
+   141	echo "werner:sac19FwGGTx/A:17293:0:99999:7:::" > /etc/shadow
+   142	echo 'root:*:17219:0:99999:7:::' >> /etc/shadow
+   143	
+   144	# Create user group entry (and delete possibly existing same gid)
+   145	cat /etc/group | grep -v ':1000:'    > /tmp/group
+   146	echo "werner:x:1000:" >> /tmp/group
+   147	mv /tmp/group /etc/group
+   148	
+   149	# Create /etc/sudoers, delete /etc/sudoers.d. Overwrite possible sudo setups in image.
+   150	[ -e /etc/sudoers.d ] && rm -v -R /etc/sudoers.d
+   151	[ -e /etc/sudoers ]   && rm -v /etc/sudoers
+   152	echo '# /etc/sudoers created by x11docker' > /etc/sudoers
+   153	echo 'Defaults	env_reset'                >> /etc/sudoers
+   154	echo 'root ALL=(ALL) ALL'                 >> /etc/sudoers
+   155	
+   156	# Restrict PAM configuration of su and sudo
+   157	mkdir -p /etc/pam.d
+   158	[ -e /etc/pam.d/sudo ] && rm -v /etc/pam.d/sudo
+   159	case "$Containersystem" in
+   160	  fedora)
+   161	    echo '#%PAM-1.0' > /etc/pam.d/su
+   162	    echo 'auth     sufficient pam_rootok.so'  >> /etc/pam.d/su
+   163	    echo 'account  sufficient pam_succeed_if.so uid = 0 use_uid quiet'  >> /etc/pam.d/su
+   164	    echo 'session  include system-auth'       >> /etc/pam.d/su
+   165	  ;;
+   166	  *)
+   167	    echo '#%PAM-1.0' > /etc/pam.d/su
+   168	    echo 'auth sufficient pam_rootok.so' >> /etc/pam.d/su  # allow root to switch user without a password
+   169	    echo '@include common-auth'          >> /etc/pam.d/su
+   170	    echo '@include common-account'       >> /etc/pam.d/su
+   171	    echo '@include common-session'       >> /etc/pam.d/su
+   172	  ;;
+   173	esac
+   174	
+   175	# Set up container user groups
+   176	# Create HOME
+   177	mkdir -p $Containeruserhome
+   178	chown $Containeruser:$(id -g $Containeruser) "$Containeruserhome"
+   179	ls -la $Containeruserhome
+   180	
+   181	rocknroll || exit 64
+   182	
+   183	
+   184	# disable getty in inittab
+   185	[ -e /etc/inittab ] && sed -i 's/.*getty/##getty disabled by x11docker## \0/' /etc/inittab
+   186	
+   187	
+   188	rocknroll || exit 64
+   189	
+   190	storeinfo containerrootrc=ready
+   191	
+
+x11docker[16:37:23,019]: Generated xinitrc:
+     1	#! /bin/sh
+     2	disable_xhost () 
+     3	{ 
+     4	    local Line=;
+     5	    command -v xhost > /dev/null || { 
+     6	        warning "Command 'xhost' not found.
+     7	  Can not check for possibly allowed network access to X.
+     8	  Please install 'xhost'.";
+     9	        return 1
+    10	    };
+    11	    xhost 2>&1 | tail -n +2 /dev/stdin | while read -r Line; do
+    12	        debugnote "xhost: Removing entry $Line";
+    13	        xhost -$Line;
+    14	    done;
+    15	    xhost -;
+    16	    [ "$(xhost 2>&1 | wc -l)" -gt "1" ] && { 
+    17	        warning "Remaining xhost permissions found on display ${DISPLAY:-}
+    18	$(xhost 2>&1 )";
+    19	        return 1
+    20	    };
+    21	    xhost 2>&1 | grep "access control disabled" && { 
+    22	        warning "Failed to restrict xhost permissions.
+    23	  Access to display ${DISPLAY:-} is allowed for everyone.";
+    24	        return 1
+    25	    };
+    26	    return 0
+    27	}
+    28	pspid () 
+    29	{ 
+    30	    LC_ALL=C ps -p "${1:-}" 2> /dev/null | grep -v 'TIME'
+    31	}
+    32	rocknroll () 
+    33	{ 
+    34	    [ -s "$Timetosaygoodbyefile" ] && return 1;
+    35	    [ -e "$Timetosaygoodbyefile" ] || return 1;
+    36	    return 0
+    37	}
+    38	storeinfo () 
+    39	{ 
+    40	    [ -e "$Storeinfofile" ] || return 1;
+    41	    case "${1:-}" in 
+    42	        dump)
+    43	            grep "^${2:-}=" $Storeinfofile | sed "s/^${2:-}=//"
+    44	        ;;
+    45	        drop)
+    46	            sed -i "/^${2:-}=/d" $Storeinfofile
+    47	        ;;
+    48	        test)
+    49	            grep -q "^${2:-}=" $Storeinfofile
+    50	        ;;
+    51	        *)
+    52	            debugnote "storeinfo(): ${1:-}";
+    53	            grep -q "^$(echo "${1:-}" | cut -d= -f1)=" $Storeinfofile && { 
+    54	                sed -i "/^$(echo "${1:-}" | cut -d= -f1)=/d" $Storeinfofile
+    55	            };
+    56	            echo "${1:-}" >> $Storeinfofile
+    57	        ;;
+    58	    esac
+    59	}
+    60	storepid () 
+    61	{ 
+    62	    case "${1:-}" in 
+    63	        dump)
+    64	            grep -w "${2:-}" "$Storepidfile" | cut -d' ' -f1
+    65	        ;;
+    66	        test)
+    67	            grep -q -w "${2:-}" "$Storepidfile"
+    68	        ;;
+    69	        *)
+    70	            echo "${1:-NOPID}" "${2:-NONAME}" >> "$Storepidfile";
+    71	            debugnote "storepid(): Stored pid '${1:-}' of '${2:-}': $(pspid ${1:-} ||:)"
+    72	        ;;
+    73	    esac
+    74	}
+    75	
+    76	warning() {
+    77	  echo "$*:WARNING"   | sed "s/\$/ /" >>$Messagefile
+    78	}
+    79	note() {
+    80	  echo "$*:NOTE"      | sed "s/\$/ /" >>$Messagefile
+    81	}
+    82	verbose() {
+    83	  echo "$*:VERBOSE"   | sed "s/\$/ /" >>$Messagefile
+    84	}
+    85	debugnote() {
+    86	  echo "$*:DEBUGNOTE" | sed "s/\$/ /" >>$Messagefile
+    87	}
+    88	error() {
+    89	  echo "$*:ERROR"     | sed "s/\$/ /" >>$Messagefile
+    90	  exit 64
+    91	}
+    92	stdout() {
+    93	  echo "$*:STDOUT"    | sed "s/\$/ /" >>$Messagefile
+    94	}
+    95	getscreensize() {
+    96	  CurrentXaxis="$(xrandr | grep primary | cut -d' ' -f4 | cut -dx -f1 )"
+    97	  CurrentYaxis="$(xrandr | grep primary | cut -d' ' -f4 | cut -dx -f2 | cut -d+ -f1)"
+    98	}
+    99	checkscreensize() {
+   100	  getscreensize
+   101	  [ "$Xaxis" = "$CurrentXaxis" ] || return 1
+   102	  [ "$Yaxis" = "$CurrentYaxis" ] || return 1
+   103	  return 0
+   104	}
+   105	getprimary() {
+   106	  xrandr | grep -q primary || xrandr --output $(xrandr | grep ' connected' | head -n1 | cut -d' ' -f1) --primary
+   107	  echo $(xrandr | grep primary | cut -d' ' -f1)
+   108	}
+   109	
+   110	Messagefile='/home/werner/.cache/x11docker/manuellr-flameshot-86240835788/share/message.fifo'
+   111	Output="$(getprimary)"
+   112	Storeinfofile='/home/werner/.cache/x11docker/manuellr-flameshot-86240835788/share/store.info'
+   113	Storepidfile='/home/werner/.cache/x11docker/manuellr-flameshot-86240835788/store.pids'
+   114	Timetosaygoodbyefile='/home/werner/.cache/x11docker/manuellr-flameshot-86240835788/share/timetosaygoodbye'
+   115	
+   116	export PATH='/home/werner/.pyenv/plugins/pyenv-virtualenv/shims:/home/werner/.pyenv/shims:/home/werner/.pyenv/plugins/pyenv-virtualenv/shims:/home/werner/.pyenv/shims:/home/werner/.local/bin:/home/werner/Public/repo/github.com/mviereck/x11docker.git:/home/werner/.local/texlive/2020/bin/x86_64-linux:/opt/apache-maven/3.6.3/bin:/opt/openjdk/jdk-14.0.1/bin:/usr/local/nginx/sbin:/home/werner/Public/repo/github.com/smxi/inxi.git:/home/werner/Public/repo/github.com/junegunn/fzf.git/bin:/home/werner/.pyenv/bin:/home/werner/Public/repo/github.com/golang/go.git/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/werner/go/bin:'
+   117	
+   118	Cookie=''
+   119	Line=''
+   120	Var=''
+   121	
+   122	debugnote 'Running xinitrc'
+   123	
+   124	export  DISPLAY=:103 XAUTHORITY=/home/werner/.cache/x11docker/manuellr-flameshot-86240835788/share/Xauthority.client XSOCKET=/tmp/.X11-unix/X103 XDG_RUNTIME_DIR=/run/user/1000
+   125	# background color
+   126	xsetroot -solid '#7F7F7F' 2>/dev/null
+   127	
+   128	# create new XAUTHORITY cookies
+   129	:> /home/werner/.cache/x11docker/manuellr-flameshot-86240835788/share/Xauthority.client
+   130	
+   131	echo 'Requesting trusted cookie from X server'
+   132	xauth -v -i -f /home/werner/.cache/x11docker/manuellr-flameshot-86240835788/share/Xauthority.client generate :103 . trusted timeout 3600
+   133	
+   134	[ -s '/home/werner/.cache/x11docker/manuellr-flameshot-86240835788/share/Xauthority.client' ] || { 
+   135	  [ 'trusted' = 'untrusted' ] && note 'Could not create untrusted cookie. 
+   136	  Maybe your X server misses extension SECURITY.'
+   137	}
+   138	[ -s '/home/werner/.cache/x11docker/manuellr-flameshot-86240835788/share/Xauthority.client' ] || { 
+   139	  # still no cookie? try to create one without extension security
+   140	  debugnote 'xinitrc: Failed to retrieve trusted cookie from X server. Will bake one myself.'
+   141	  echo 'Failed to retrieve trusted cookie from X server. Will bake one myself.'
+   142	  xauth -v -i -f /home/werner/.cache/x11docker/manuellr-flameshot-86240835788/share/Xauthority.client add :103 . 7f262582a96dc80e65193edc6a9888e9
+   143	  ls -l /home/werner/.cache/x11docker/manuellr-flameshot-86240835788/share/Xauthority.client
+   144	}
+   145	
+   146	# Prepare cookie with localhost identification disabled by ffff, needed if X socket is shared. ffff means 'familiy wild'
+   147	Cookie="$(xauth -i -f /home/werner/.cache/x11docker/manuellr-flameshot-86240835788/share/Xauthority.client nlist | sed -e 's/^..../ffff/')"
+   148	echo "$Cookie" | xauth -v -i -f /home/werner/.cache/x11docker/manuellr-flameshot-86240835788/share/Xauthority.client nmerge -
+   149	
+   150	debugnote "xinitrc: Created cookie: $(xauth -f /home/werner/.cache/x11docker/manuellr-flameshot-86240835788/share/Xauthority.client list 2>&1)"
+   151	ls -l /home/werner/.cache/x11docker/manuellr-flameshot-86240835788/share/Xauthority.client
+   152	cp /home/werner/.cache/x11docker/manuellr-flameshot-86240835788/share/Xauthority.client /home/werner/.cache/x11docker/manuellr-flameshot-86240835788/Xauthority.server
+   153	chmod 644 /home/werner/.cache/x11docker/manuellr-flameshot-86240835788/share/Xauthority.client
+   154	
+   155	[ -s '/home/werner/.cache/x11docker/manuellr-flameshot-86240835788/share/Xauthority.client' ] || warning 'Cookie creation failed!'
+   156	export XAUTHORITY=/home/werner/.cache/x11docker/manuellr-flameshot-86240835788/share/Xauthority.client
+   157	[ 'yes' = 'no' ] || [ ! -s '/home/werner/.cache/x11docker/manuellr-flameshot-86240835788/share/Xauthority.client' ] && unset XAUTHORITY && warning '--xephyr: X server :103 runs without cookie authentication.'
+   158	
+   159	# clean xhost
+   160	verbose 'Disabling any possible access to new X server possibly granted by xhost'
+   161	disable_xhost
+   162	
+   163	# Keyboard layout
+   164	# set keyboard layout on :103
+   165	verbose "Keyboard layout:
+   166	$(cat /home/werner/.cache/x11docker/manuellr-flameshot-86240835788/xkb.keymap)"
+   167	xkbcomp /home/werner/.cache/x11docker/manuellr-flameshot-86240835788/xkb.keymap :103
+   168	
+   169	verbose "Output of xrandr on :103
+   170	$(xrandr)"
+   171	
+   172	echo 'xinitrc: xinitrc is ready'
+   173	storeinfo xinitrc=ready
+   174	
+   175	# wait for the end
+   176	read Var </home/werner/.cache/x11docker/manuellr-flameshot-86240835788/share/timetosaygoodbye.fifo
+
+DEBUGNOTE[16:37:23,046]: Running xtermrc: Ask for password if needed (no)
+DEBUGNOTE[16:37:23,058]: Running dockerrc: Setup as root or as user docker on host.
+DEBUGNOTE[16:37:23,063]: storepid(): Stored pid '3958289' of 'containershell': 3958289 pts/2    00:00:00 bash
+DEBUGNOTE[16:37:23,073]: waitforlogentry(): start_xserver(): Waiting for logentry "readyforX=ready" in store.info
+
+==> /home/werner/.cache/x11docker/manuellr-flameshot-86240835788/share/container.log <==
+WARNING: No blkio weight support
+WARNING: No blkio weight_device support
+
+==> /home/werner/.cache/x11docker/manuellr-flameshot-86240835788/message.log <==
+DEBUGNOTE[16:37:23,210]: dockerrc: Found default Runtime: runc
+DEBUGNOTE[16:37:23,224]: dockerrc: All  Runtimes: io.containerd.runc.v2 io.containerd.runtime.v1.linux nvidia runc
+DEBUGNOTE[16:37:23,237]: dockerrc: Container Runtime: runc
+DEBUGNOTE[16:37:23,251]: storeinfo(): runtime=runc
+DEBUGNOTE[16:37:23,396]: dockerrc: Image architecture: amd64
+DEBUGNOTE[16:37:23,411]: dockerrc: Image CMD: /bin/sh -c flameshot
+     1	#! /bin/sh
+     2	
+     3	# containerrc
+     4	# Created startscript for docker run used as container command.
+     5	# Runs as unprivileged user in container.
+     6	
+     7	
+     8	mysleep () 
+     9	{ 
+    10	    sleep "${1:-1}" 2> /dev/null || sleep 1
+    11	}
+    12	rocknroll () 
+    13	{ 
+    14	    [ -s "$Timetosaygoodbyefile" ] && return 1;
+    15	    [ -e "$Timetosaygoodbyefile" ] || return 1;
+    16	    return 0
+    17	}
+    18	saygoodbye () 
+    19	{ 
+    20	    debugnote "time to say goodbye ($*)";
+    21	    [ -e "$Timetosaygoodbyefile" ] && echo timetosaygoodbye >> $Timetosaygoodbyefile;
+    22	    [ -e "$Timetosaygoodbyefifo" ] && echo timetosaygoodbye >> $Timetosaygoodbyefifo
+    23	}
+    24	storeinfo () 
+    25	{ 
+    26	    [ -e "$Storeinfofile" ] || return 1;
+    27	    case "${1:-}" in 
+    28	        dump)
+    29	            grep "^${2:-}=" $Storeinfofile | sed "s/^${2:-}=//"
+    30	        ;;
+    31	        drop)
+    32	            sed -i "/^${2:-}=/d" $Storeinfofile
+    33	        ;;
+    34	        test)
+    35	            grep -q "^${2:-}=" $Storeinfofile
+    36	        ;;
+    37	        *)
+    38	            debugnote "storeinfo(): ${1:-}";
+    39	            grep -q "^$(echo "${1:-}" | cut -d= -f1)=" $Storeinfofile && { 
+    40	                sed -i "/^$(echo "${1:-}" | cut -d= -f1)=/d" $Storeinfofile
+    41	            };
+    42	            echo "${1:-}" >> $Storeinfofile
+    43	        ;;
+    44	    esac
+    45	}
+    46	waitforlogentry () 
+    47	{ 
+    48	    local Startzeit Uhrzeit Dauer Count=0 Schlaf;
+    49	    local Errorkeys="${4:-}";
+    50	    local Warten="${5:-60}";
+    51	    local Error=;
+    52	    Startzeit="$(date +%s ||:)";
+    53	    Startzeit="${Startzeit:-0}";
+    54	    [ "$Warten" = "infinity" ] && Warten=32000;
+    55	    debugnote "waitforlogentry(): ${1:-}: Waiting for logentry \"${3:-}\" in $(basename ${2:-})";
+    56	    while ! grep -q "${3:-}" < "${2:-}"; do
+    57	        Count="$(( $Count + 1 ))";
+    58	        Uhrzeit="$(date +%s ||:)";
+    59	        Uhrzeit="${Uhrzeit:-0}";
+    60	        Dauer="$(( $Uhrzeit - $Startzeit ))";
+    61	        Schlaf="$(( $Count / 10 ))";
+    62	        [ "$Schlaf" = "0" ] && Schlaf="0.5";
+    63	        mysleep "$Schlaf";
+    64	        [ "$Dauer" -gt "10" ] && debugnote "waitforlogentry(): ${1:-}: Waiting since ${Dauer}s for log entry \"${3:-}\" in $(basename ${2:-})";
+    65	        [ "$Dauer" -gt "$Warten" ] && error "waitforlogentry(): ${1:-}: Timeout waiting for entry \"${3:-}\" in $(basename ${2:-})
+    66	  Last lines of $(basename ${2:-}):
+    67	$(tail "${2:-}")";
+    68	        [ "$Errorkeys" ] && grep -i -q -E "$Errorkeys" < "${2:-}" && error "waitforlogentry(): ${1:-}: Found error message in logfile.
+    69	  Last lines of logfile $(basename ${2:-}):
+    70	$(tail "${2:-}")";
+    71	        rocknroll || { 
+    72	            debugnote "waitforlogentry(): ${1:-}: Stopped waiting for ${3:-} in $(basename ${2:-}) due to terminating signal.";
+    73	            Error=1;
+    74	            break
+    75	        };
+    76	    done;
+    77	    [ "$Error" ] && return 1;
+    78	    debugnote "waitforlogentry(): ${1:-}: Found log entry \"${3:-}\" in $(basename ${2:-}).";
+    79	    return 0
+    80	}
+    81	
+    82	warning() {
+    83	  echo "$*:WARNING"   | sed "s/\$/ /" >>$Messagefile
+    84	}
+    85	note() {
+    86	  echo "$*:NOTE"      | sed "s/\$/ /" >>$Messagefile
+    87	}
+    88	verbose() {
+    89	  echo "$*:VERBOSE"   | sed "s/\$/ /" >>$Messagefile
+    90	}
+    91	debugnote() {
+    92	  echo "$*:DEBUGNOTE" | sed "s/\$/ /" >>$Messagefile
+    93	}
+    94	error() {
+    95	  echo "$*:ERROR"     | sed "s/\$/ /" >>$Messagefile
+    96	  exit 64
+    97	}
+    98	stdout() {
+    99	  echo "$*:STDOUT"    | sed "s/\$/ /" >>$Messagefile
+   100	}
+   101	Messagefile=/x11docker/message.fifo
+   102	Storeinfofile=/x11docker/store.info
+   103	Timetosaygoodbyefile=/x11docker/timetosaygoodbye
+   104	
+   105	waitforlogentry containerrc $Storeinfofile containerrootrc=ready  infinity
+   106	debugnote "Running containerrc: Unprivileged user commands in container"
+   107	
+   108	Containercommand="/bin/sh -c flameshot"
+   109	Entrypoint=""
+   110	
+   111	verbose "containerrc: Container system:
+   112	$(cat /etc/os-release 2>&1 ||:)"
+   113	
+   114	
+   115	# USER and HOME
+   116	Containeruser="$(storeinfo dump containeruser)"
+   117	Containeruserhome="/home/werner"
+   118	export USER="$Containeruser"
+   119	export HOME="$Containeruserhome"
+   120	
+   121	# XDG_RUNTIME_DIR
+   122	Containeruseruid=$(id -u $Containeruser)
+   123	export XDG_RUNTIME_DIR=/tmp/XDG_RUNTIME_DIR
+   124	[ -e /run/user/$Containeruseruid ] && ln -s /run/user/$Containeruseruid $XDG_RUNTIME_DIR || mkdir -p -m700 $XDG_RUNTIME_DIR
+   125	
+   126	# Copy files from /etc/skel into empty HOME
+   127	[ -d /etc/skel ] && [ -z "$(ls -A "$Containeruserhome" 2>/dev/null | grep -v -E "gnupg")" ] && {
+   128	  debugnote "containerrc: HOME is empty. Copying from /etc/skel"
+   129	  cp -n -R /etc/skel/. $Containeruserhome
+   130	  :
+   131	} || {
+   132	  debugnote "containerrc: HOME is not empty. Not copying from /etc/skel"
+   133	}
+   134	
+   135	# Create softlink to X unix socket
+   136	[ -e /tmp/.X11-unix/X103 ] || ln -s /X103 /tmp/.X11-unix
+   137	
+   138	unset WAYLAND_DISPLAY
+   139	
+   140	export XDG_SESSION_TYPE=x11
+   141	
+   142	
+   143	export TERM=xterm
+   144	storeinfo test locale && export LANG="$(storeinfo dump locale)"
+   145	[ -e "/usr/share/zoneinfo/Asia/Shanghai" ] || export TZ=UTC-08
+   146	[ "$(date -Ihours)" != "2021-01-16T16+08:00" ] && export TZ=UTC-08
+   147	[ "$DEBIAN_FRONTEND" = noninteractive ] && unset DEBIAN_FRONTEND && export DEBIAN_FRONTEND
+   148	[ "$DEBIAN_FRONTEND" = newt ]           && unset DEBIAN_FRONTEND && export DEBIAN_FRONTEND
+   149	# container environment (--env)
+   150	export 'container=docker'
+   151	export 'XAUTHORITY=/x11docker/Xauthority.client'
+   152	export 'DISPLAY=:103'
+   153	export 'USER=werner'
+   154	
+   155	env >> /x11docker/container.environment
+   156	verbose "Container environment:
+   157	$(env | sort)"
+   158	
+   159	cd "$HOME"
+   160	
+   161	tail -f /x11docker/stdout     2>/dev/null &
+   162	tail -f /x11docker/stderr >&2 2>/dev/null &
+   163	exec $Dbus sh /x11docker/cmdrc >>/x11docker/stdout 2>>/x11docker/stderr
+     1	#! /bin/sh
+     2	# Created startscript for cmdrc containing final container command
+     3	
+     4	storeinfo () 
+     5	{ 
+     6	    [ -e "$Storeinfofile" ] || return 1;
+     7	    case "${1:-}" in 
+     8	        dump)
+     9	            grep "^${2:-}=" $Storeinfofile | sed "s/^${2:-}=//"
+    10	        ;;
+    11	        drop)
+    12	            sed -i "/^${2:-}=/d" $Storeinfofile
+    13	        ;;
+    14	        test)
+    15	            grep -q "^${2:-}=" $Storeinfofile
+    16	        ;;
+    17	        *)
+    18	            debugnote "storeinfo(): ${1:-}";
+    19	            grep -q "^$(echo "${1:-}" | cut -d= -f1)=" $Storeinfofile && { 
+    20	                sed -i "/^$(echo "${1:-}" | cut -d= -f1)=/d" $Storeinfofile
+    21	            };
+    22	            echo "${1:-}" >> $Storeinfofile
+    23	        ;;
+    24	    esac
+    25	}
+    26	
+    27	warning() {
+    28	  echo "$*:WARNING"   | sed "s/\$/ /" >>$Messagefile
+    29	}
+    30	note() {
+    31	  echo "$*:NOTE"      | sed "s/\$/ /" >>$Messagefile
+    32	}
+    33	verbose() {
+    34	  echo "$*:VERBOSE"   | sed "s/\$/ /" >>$Messagefile
+    35	}
+    36	debugnote() {
+    37	  echo "$*:DEBUGNOTE" | sed "s/\$/ /" >>$Messagefile
+    38	}
+    39	error() {
+    40	  echo "$*:ERROR"     | sed "s/\$/ /" >>$Messagefile
+    41	  exit 64
+    42	}
+    43	stdout() {
+    44	  echo "$*:STDOUT"    | sed "s/\$/ /" >>$Messagefile
+    45	}
+    46	Messagefile=/x11docker/message.fifo
+    47	debugnote "cmdrc: Running container command: 
+    48	   /bin/sh -c flameshot
+    49	  "
+    50	
+    51	 /bin/sh -c flameshot  
+    52	
+    53	[ -h "$Homesoftlink" ] && rm $Homesoftlink
+    54	storeinfo cmdexitcode=$?
+DEBUGNOTE[16:37:23,423]: dockerrc: Image USER: 
+DEBUGNOTE[16:37:23,436]: storeinfo(): containeruser=werner
+DEBUGNOTE[16:37:23,450]: dockerrc: Image ENTRYPOINT: 
+DEBUGNOTE[16:37:23,463]: dockerrc: Image WORKDIR: 
+DEBUGNOTE[16:37:23,476]: storeinfo(): readyforX=ready
+DEBUGNOTE[16:37:23,489]: waitforlogentry(): dockerrc: Waiting for logentry "xinitrc is ready" in xinit.log
+DEBUGNOTE[16:37:23,590]: waitforlogentry(): start_xserver(): Found log entry "readyforX=ready" in store.info.
+
+==> /home/werner/.cache/x11docker/manuellr-flameshot-86240835788/xinit.log <==
+
+xinit: XFree86_VT property unexpectedly has 0 items instead of 1
+xrandr: Failed to get size of gamma for output default
+xrandr: Failed to get size of gamma for output default
+xrandr: Failed to get size of gamma for output default
+xrandr: Failed to get size of gamma for output default
+Requesting trusted cookie from X server
+
+==> /home/werner/.cache/x11docker/manuellr-flameshot-86240835788/message.log <==
+DEBUGNOTE[16:37:23,794]: Running xinitrc
+
+==> /home/werner/.cache/x11docker/manuellr-flameshot-86240835788/xinit.log <==
+Ignoring locks on authority file /home/werner/.cache/x11docker/manuellr-flameshot-86240835788/share/Xauthority.client
+authorization id is 1323
+Ignoring locks and writing authority file /home/werner/.cache/x11docker/manuellr-flameshot-86240835788/share/Xauthority.client
+Ignoring locks on authority file /home/werner/.cache/x11docker/manuellr-flameshot-86240835788/share/Xauthority.client
+1 entries read in:  1 new, 0 replacements
+Ignoring locks and writing authority file /home/werner/.cache/x11docker/manuellr-flameshot-86240835788/share/Xauthority.client
+-rw------- 1 werner werner 106 Jan 16 16:37 /home/werner/.cache/x11docker/manuellr-flameshot-86240835788/share/Xauthority.client
+access control enabled, only authorized clients can connect
+
+==> /home/werner/.cache/x11docker/manuellr-flameshot-86240835788/message.log <==
+DEBUGNOTE[16:37:23,830]: xinitrc: Created cookie: X10DAi/unix:103  MIT-MAGIC-COOKIE-1  6a527664a2e9e56193635e473fc5fe4b 
+#ffff#583130444169#:103  MIT-MAGIC-COOKIE-1  6a527664a2e9e56193635e473fc5fe4b
+
+==> /home/werner/.cache/x11docker/manuellr-flameshot-86240835788/xinit.log <==
+Warning:          Unsupported high keycode 372 for name <I372> ignored
+                  X11 cannot support keycodes above 255.
+                  This warning only shows for the first high keycode.
+Warning:          Key <OUTP> not found in evdev+aliases(qwerty) keycodes
+                  Symbols ignored
+Warning:          Key <KITG> not found in evdev+aliases(qwerty) keycodes
+                  Symbols ignored
+Warning:          Key <KIDN> not found in evdev+aliases(qwerty) keycodes
+                  Symbols ignored
+Warning:          Key <KIUP> not found in evdev+aliases(qwerty) keycodes
+                  Symbols ignored
+Warning:          Key <RO> not found in evdev+aliases(qwerty) keycodes
+                  Symbols ignored
+Warning:          Key <I192> not found in evdev+aliases(qwerty) keycodes
+                  Symbols ignored
+Warning:          Key <I193> not found in evdev+aliases(qwerty) keycodes
+                  Symbols ignored
+Warning:          Key <I194> not found in evdev+aliases(qwerty) keycodes
+                  Symbols ignored
+Warning:          Key <I195> not found in evdev+aliases(qwerty) keycodes
+                  Symbols ignored
+Warning:          Key <I196> not found in evdev+aliases(qwerty) keycodes
+                  Symbols ignored
+Warning:          Key <I372> not found in evdev+aliases(qwerty) keycodes
+                  Symbols ignored
+Warning:          Key <I382> not found in evdev+aliases(qwerty) keycodes
+                  Symbols ignored
+Warning:          Key <I569> not found in evdev+aliases(qwerty) keycodes
+                  Symbols ignored
+Warning:          Key <I380> not found in evdev+aliases(qwerty) keycodes
+                  Symbols ignored
+Warning:          No symbols defined for <AB11> (keycode 97)
+Warning:          No symbols defined for <JPCM> (keycode 103)
+Warning:          No symbols defined for <I120> (keycode 120)
+Warning:          No symbols defined for <AE13> (keycode 132)
+Warning:          No symbols defined for <I149> (keycode 149)
+Warning:          No symbols defined for <I154> (keycode 154)
+Warning:          No symbols defined for <I168> (keycode 168)
+Warning:          No symbols defined for <I178> (keycode 178)
+Warning:          No symbols defined for <I183> (keycode 183)
+Warning:          No symbols defined for <I184> (keycode 184)
+Warning:          No symbols defined for <FK19> (keycode 197)
+Warning:          No symbols defined for <FK24> (keycode 202)
+Warning:          No symbols defined for <I217> (keycode 217)
+Warning:          No symbols defined for <I219> (keycode 219)
+Warning:          No symbols defined for <I222> (keycode 222)
+Warning:          No symbols defined for <I230> (keycode 230)
+Warning:          No symbols defined for <I247> (keycode 247)
+Warning:          No symbols defined for <I248> (keycode 248)
+Warning:          No symbols defined for <I249> (keycode 249)
+Warning:          No symbols defined for <I250> (keycode 250)
+Warning:          No symbols defined for <I252> (keycode 252)
+Warning:          No symbols defined for <I253> (keycode 253)
+
+==> /home/werner/.cache/x11docker/manuellr-flameshot-86240835788/message.log <==
+x11docker[16:37:23,847]: Disabling any possible access to new X server possibly granted by xhost
+
+
+==> /home/werner/.cache/x11docker/manuellr-flameshot-86240835788/xinit.log <==
+xrandr: Failed to get size of gamma for output default
+xinitrc: xinitrc is ready
+
+==> /home/werner/.cache/x11docker/manuellr-flameshot-86240835788/message.log <==
+x11docker[16:37:23,879]: Keyboard layout: 
+xkb_keymap { 
+	xkb_keycodes  { include "evdev+aliases(qwerty)"	}; 
+	xkb_types     { include "complete"	}; 
+	xkb_compat    { include "complete"	}; 
+	xkb_symbols   { include "pc+us+us:2+inet(evdev)"	}; 
+	xkb_geometry  { include "pc(pc105)"	}; 
+};
+
+x11docker[16:37:23,934]: Output of xrandr on :103 
+Screen 0: minimum 160 x 160, current 1848 x 1016, maximum 1848 x 1200 
+default connected primary 1848x1016+0+0 (normal left inverted right x axis y axis) 0mm x 0mm 
+   1600x1200      0.00   
+   1400x1050      0.00   
+   1280x960       0.00   
+   1280x1024      0.00   
+   1152x864       0.00   
+   1024x768       0.00   
+   832x624        0.00   
+   800x600        0.00   
+   720x400        0.00   
+   480x640        0.00   
+   640x480        0.00   
+   640x400        0.00   
+   320x240        0.00   
+   240x320        0.00   
+   160x160        0.00   
+   1848x1016      0.00* 
+
+DEBUGNOTE[16:37:23,947]: storeinfo(): xinitrc=ready
+DEBUGNOTE[16:37:23,959]: waitforlogentry(): dockerrc: Found log entry "xinitrc is ready" in xinit.log.
+
+==> /home/werner/.cache/x11docker/manuellr-flameshot-86240835788/share/container.log <==
+[]
+Error: No such object: x11docker/openbox
+
+==> /home/werner/.cache/x11docker/manuellr-flameshot-86240835788/message.log <==
+x11docker note: Option --wm: Did not find window manager image 
+      x11docker/openbox 
+  to provide a containerized window manager. Please run: 
+      docker pull x11docker/openbox 
+  If you want to use a host window manager instead and avoid this warning, 
+  use option                         --wm=host  or  --wm=COMMAND 
+  or provide a local image with e.g. --wm=x11docker/fvwm 
+  To run without a window manager:   --wm=none  or  --desktop 
+  Fallback: Will try to run a host window manager: mutter
+
+x11docker note: Option --wm: Starting host window manager: mutter
+
+DEBUGNOTE[16:37:24,085]: storepid(): Stored pid '3960033' of 'windowmanager': 3960033 pts/2    00:00:00 bash
+
+==> /home/werner/.cache/x11docker/manuellr-flameshot-86240835788/xinit.log <==
+
+(mutter:3960042): GLib-GIO-ERROR **: 16:37:24.156: Settings schema 'org.gnome.desktop.peripherals.trackball' does not contain a key named 'scroll-wheel-emulation-button-lock'
+/home/werner/.cache/x11docker/manuellr-flameshot-86240835788/dockerrc: line 576: 3960042 Trace/breakpoint trap   (core dumped) env DISPLAY=:103 XAUTHORITY=/home/werner/.cache/x11docker/manuellr-flameshot-86240835788/share/Xauthority.client XSOCKET=/tmp/.X11-unix/X103 XDG_RUNTIME_DIR=/run/user/1000 mutter >> /home/werner/.cache/x11docker/manuellr-flameshot-86240835788/xinit.log 2>&1
+
+==> /home/werner/.cache/x11docker/manuellr-flameshot-86240835788/message.log <==
+DEBUGNOTE[16:37:26,088]: waitforlogentry(): containerrc: Waiting for logentry "containerrootrc=ready" in store.info
+DEBUGNOTE[16:37:26,186]: storeinfo(): containerid=ee3105a64dd3875c3729764543d34d4083414012c3991e217c084eaa5a68abdc
+DEBUGNOTE[16:37:26,353]: dockerrc: Container is up and running.
+DEBUGNOTE[16:37:26,408]: dockerrc: 1. check for PID 1: 3962326
+DEBUGNOTE[16:37:26,422]: storeinfo(): pid1pid=3962326
+DEBUGNOTE[16:37:26,473]: storeinfo(): containerip=172.17.0.2
+DEBUGNOTE[16:37:26,486]: dockerrc(): Starting containerrootrc with privileged docker exec
+
+==> /home/werner/.cache/x11docker/manuellr-flameshot-86240835788/share/container.log <==
+/bin/cat
+/bin/chmod
+/bin/chown
+/usr/bin/cut
+cd
+/bin/cp
+/bin/date
+echo
+/usr/bin/env
+export
+/bin/grep
+/usr/bin/id
+/bin/ln
+/bin/ls
+/bin/mkdir
+/bin/mv
+printf
+/bin/rm
+/bin/sed
+/bin/sh
+/bin/sleep
+/usr/bin/tail
+/usr/bin/touch
+mkdir: created directory '/var/lib/dbus'
+mkdir: created directory '/var/run/dbus'
+mkdir: created directory '/tmp/.ICE-unix'
+mkdir: created directory '/tmp/.X11-unix'
+mkdir: created directory '/tmp/.font-unix'
+
+==> /home/werner/.cache/x11docker/manuellr-flameshot-86240835788/message.log <==
+DEBUGNOTE[16:37:26,827]: Running containerrootrc: Setup as root in container
+
+==> /home/werner/.cache/x11docker/manuellr-flameshot-86240835788/share/container.log <==
+removed '/etc/shadow'
+
+==> /home/werner/.cache/x11docker/manuellr-flameshot-86240835788/message.log <==
+DEBUGNOTE[16:37:26,841]: containerrootrc: Container libc: glibc
+
+==> /home/werner/.cache/x11docker/manuellr-flameshot-86240835788/share/container.log <==
+total 8
+drwxr-xr-x 2 werner werner 4096 Jan 16 16:37 .
+drwxr-xr-x 1 root   root   4096 Jan 16 16:37 ..
+
+==> /home/werner/.cache/x11docker/manuellr-flameshot-86240835788/message.log <==
+x11docker[16:37:26,861]: Container system ID: debian
+
+DEBUGNOTE[16:37:26,876]: containerrootrc: werner:x:1000:1000:werner,,,:/home/werner:/bin/bash
+DEBUGNOTE[16:37:26,888]: storeinfo(): containerrootrc=ready
+DEBUGNOTE[16:37:26,903]: storeinfo(): dockerrc=ready
+DEBUGNOTE[16:37:26,921]: storepid(): Stored pid '3963826' of 'dockerstopshell': 3963826 pts/2    00:00:00 bash
+DEBUGNOTE[16:37:26,926]: waitforlogentry(): start_docker(): Waiting for logentry "dockerrc=ready" in store.info
+DEBUGNOTE[16:37:26,935]: storeinfo(): xtermrc=ready
+DEBUGNOTE[16:37:26,935]: waitforlogentry(): start_docker(): Found log entry "dockerrc=ready" in store.info.
+DEBUGNOTE[16:37:26,944]: watchpidlist(): Setting pid 3962326 on watchlist: pid1pid
+DEBUGNOTE[16:37:26,983]: storepid(): Stored pid '3962326' of 'pid1pid': 3962326 pts/0    00:00:00 init
+DEBUGNOTE[16:37:26,984]: watchpidlist(): Watching pids: 
+3962326 pts/0    00:00:00 init
+DEBUGNOTE[16:37:27,139]: waitforlogentry(): containerrc: Found log entry "containerrootrc=ready" in store.info.
+DEBUGNOTE[16:37:27,151]: Running containerrc: Unprivileged user commands in container
+x11docker[16:37:27,187]: containerrc: Container system: 
+PRETTY_NAME="Debian GNU/Linux 10 (buster)" 
+NAME="Debian GNU/Linux" 
+VERSION_ID="10" 
+VERSION="10 (buster)" 
+VERSION_CODENAME=buster 
+ID=debian 
+HOME_URL="https://www.debian.org/" 
+SUPPORT_URL="https://www.debian.org/support" 
+BUG_REPORT_URL="https://bugs.debian.org/"
+
+DEBUGNOTE[16:37:27,199]: containerrc: HOME is empty. Copying from /etc/skel
+x11docker[16:37:27,260]: Container environment: 
+BUILD_PACKAGES=git g++ cmake build-essential qt5-default qttools5-dev-tools libqt5svg5-dev qttools5-dev ca-certificates 
+DISPLAY=:103 
+GIT_BRANCH=v0.8.1 
+GIT_URL=https://github.com/flameshot-org/flameshot.git 
+HOME=/home/werner 
+HOSTNAME=ee3105a64dd3 
+HTTPS_PROXY=http://172.17.0.1:8080 
+HTTP_PROXY=http://172.17.0.1:8080 
+NO_PROXY=localhost,127.0.0.1,.cn 
+PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin 
+PWD=/tmp 
+RUNTIME_PACKAGES=libqt5dbus5 libqt5network5 libqt5core5a libqt5widgets5 libqt5gui5 libqt5svg5 openssl ca-certificates 
+TERM=xterm 
+USER=werner 
+XAUTHORITY=/x11docker/Xauthority.client 
+XDG_RUNTIME_DIR=/tmp/XDG_RUNTIME_DIR 
+XDG_SESSION_TYPE=x11 
+container=docker 
+http_proxy=http://172.17.0.1:8080 
+https_proxy=http://172.17.0.1:8080 
+no_proxy=localhost,127.0.0.1,.cn
+
+DEBUGNOTE[16:37:27,276]: cmdrc: Running container command:  
+   /bin/sh -c flameshot 
+  
+DEBUGNOTE[16:37:27,291]: watchpidlist(): Setting pid 3959282 on watchlist: xinit
+DEBUGNOTE[16:37:27,326]: storepid(): Stored pid '3959282' of 'xinit': 3959282 pts/2    00:00:00 xinit
+DEBUGNOTE[16:37:27,363]: watchpidlist(): Watching pids: 
+3962326 pts/0    00:00:00 init
+3959282 pts/2    00:00:00 xinit
+DEBUGNOTE[16:37:27,389]: watchpidlist(): Setting pid 3959285 on watchlist: Xserver
+DEBUGNOTE[16:37:27,428]: storepid(): Stored pid '3959285' of 'Xserver': 3959285 pts/2    00:00:00 Xephyr
+DEBUGNOTE[16:37:27,500]: watchpidlist(): Watching pids: 
+3962326 pts/0    00:00:00 init
+3959282 pts/2    00:00:00 xinit
+3959285 pts/2    00:00:00 Xephyr
+DEBUGNOTE[16:37:27,554]: Process tree of container: (maybe not complete yet)
+init(3962326)---sh(3962712)-+-sh(3964268)---flameshot(3964271)-+-{flameshot}(3964298)
+                            |                                  `-{flameshot}(3964454)
+                            |-tail(3964259)
+                            `-tail(3964260)
+DEBUGNOTE[16:37:27,802]: Process tree of x11docker:
+bash(3954351)-+-bash(3955897)---tail(3955899)
+              |-bash(3955898)---tail(3955902)
+              |-bash(3955900)---sleep(3964552)
+              |-bash(3955901)---sleep(3964555)
+              |-bash(3955926)
+              |-bash(3955987)
+              |-bash(3958289)---bash(3964928)---pstree(3964929)
+              `-xinit(3959282)-+-Xephyr(3959285)-+-{Xephyr}(3959328)
+                               |                 |-{Xephyr}(3959329)
+                               |                 |-{Xephyr}(3959330)
+                               |                 |-{Xephyr}(3959331)
+                               |                 |-{Xephyr}(3959332)
+                               |                 |-{Xephyr}(3959333)
+                               |                 |-{Xephyr}(3959334)
+                               |                 |-{Xephyr}(3959335)
+                               |                 |-{Xephyr}(3959336)
+                               |                 |-{Xephyr}(3959337)
+                               |                 |-{Xephyr}(3959338)
+                               |                 |-{Xephyr}(3959339)
+                               |                 |-{Xephyr}(3959340)
+                               |                 |-{Xephyr}(3959341)
+                               |                 |-{Xephyr}(3959342)
+                               |                 |-{Xephyr}(3959343)
+                               |                 |-{Xephyr}(3959344)
+                               |                 |-{Xephyr}(3959345)
+                               |                 |-{Xephyr}(3959346)
+                               |                 |-{Xephyr}(3959347)
+                               |                 |-{Xephyr}(3959348)
+                               |                 |-{Xephyr}(3959349)
+                               |                 |-{Xephyr}(3959350)
+                               |                 |-{Xephyr}(3959351)
+                               |                 |-{Xephyr}(3959352)
+                               |                 |-{Xephyr}(3959353)
+                               |                 |-{Xephyr}(3959354)
+                               |                 |-{Xephyr}(3959355)
+                               |                 |-{Xephyr}(3959356)
+                               |                 |-{Xephyr}(3959357)
+                               |                 |-{Xephyr}(3959358)
+                               |                 |-{Xephyr}(3959359)
+                               |                 |-{Xephyr}(3959362)
+                               |                 |-{Xephyr}(3959363)
+                               |                 |-{Xephyr}(3959364)
+                               |                 `-{Xephyr}(3959365)
+                               `-sh(3959522)
+  Lost child of dockerrc (dockerstopshell):
+    bash(3963826)
+DEBUGNOTE[16:37:27,810]: storeinfo(): Stored info:
+cache=/home/werner/.cache/x11docker/manuellr-flameshot-86240835788
+stdout=/home/werner/.cache/x11docker/manuellr-flameshot-86240835788/share/stdout
+stderr=/home/werner/.cache/x11docker/manuellr-flameshot-86240835788/share/stderr
+x11dockerpid=3954351
+xserver=--xephyr
+DISPLAY=:103
+XAUTHORITY=/home/werner/.cache/x11docker/manuellr-flameshot-86240835788/share/Xauthority.client
+XSOCKET=/tmp/.X11-unix/X103
+XDG_RUNTIME_DIR=/run/user/1000
+Xenv= DISPLAY=:103 XAUTHORITY=/home/werner/.cache/x11docker/manuellr-flameshot-86240835788/share/Xauthority.client XSOCKET=/tmp/.X11-unix/X103 XDG_RUNTIME_DIR=/run/user/1000
+tini=/usr/bin/docker-init
+containername=x11docker_X103_manuellr-flameshot_86240835788
+runtime=runc
+containeruser=werner
+readyforX=ready
+xinitrc=ready
+containerid=ee3105a64dd3875c3729764543d34d4083414012c3991e217c084eaa5a68abdc
+pid1pid=3962326
+containerip=172.17.0.2
+containerrootrc=ready
+dockerrc=ready
+xtermrc=ready
+DEBUGNOTE[16:37:27,816]: storepid(): Stored pids:
+3955926 watchpidlist
+3955987 watchmessagefifo
+3958289 containershell
+3960033 windowmanager
+3963826 dockerstopshell
+3962326 pid1pid
+3959282 xinit
+3959285 Xserver
+DEBUGNOTE[16:37:27,819]: storeinfo(): x11docker=ready
+DEBUGNOTE[16:37:28,314]: waitforlogentry(): tailstdout: Found log entry "x11docker=ready" in store.info.
+DEBUGNOTE[16:37:28,317]: waitforlogentry(): tailstderr: Found log entry "x11docker=ready" in store.info.
