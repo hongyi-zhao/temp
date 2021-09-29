@@ -1,0 +1,443 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+	<head>
+		<title></title>
+		<meta http-equiv="Content-Language" content="zh-cn" />
+		<meta http-equiv="Content-Type" content="text/html; charset=GBK" />
+		<link rel="stylesheet" href="../css/Print.css" type="text/css" />
+		<style type='text/css'>
+			table {
+				margin: 0 auto;
+				border: 1px solid black;
+				border-collapse: collapse;
+				border-spacing: 0;
+				empty-cells: show;
+				table-layout: fixed;
+			}
+			
+			td {
+				text-align: left;
+				border: 1px solid black;
+				font-size: 9pt;
+				padding-left: 2px;
+				padding-right: 2px;
+				line-height: 5mm;
+				word-wrap: break-word;
+				word-break: break-all;
+				vnd.ms-excel.numberformat:@
+			}
+			
+			thead td {
+				text-align: center
+			}
+			.table{width:256mm;height:auto;border-collapse: collapse; border:solid 1px black;background-color:white;}
+			.tr{height:auto;}
+			.td{border:solid 1px black;padding:0px;}
+			.td0{border:solid 1px black;padding:0px;height:4mm;font-size:14px;text-align: center;background-color: white;}
+			.td1{border:solid 1px black;padding:0px;width:9mm;height:auto;font-size:14px;text-align: center;background-color: white;}
+			.div1{width:100%;height:26mm;background-color:white;border:solie 1px black;margin:0px;padding:0px;font-size:12px;}
+			.div2{width:9mm;height:100%;background-color:white;margin:0px;padding:0px;text-align:center;}
+		</style>
+		<script type="text/JavaScript">
+			var	flag;
+			var _config_ = {
+				pageSize : "A4",
+				orientation : "L",
+				top : 0,
+				bottom :20,
+				left : 10,
+				right : 10,
+				sfxsym:""
+			};
+			function labClick(obj){
+				obj_id = obj.id;
+				var objs = document.getElementsByTagName("div");
+				for(i=0;i<objs.length;i++){
+					objs[i].style.backgroundColor="white";
+					objs[i].style.color="black";
+				}
+				document.getElementById(obj_id).style.backgroundColor="black";
+				document.getElementById(obj_id).style.color="white";
+			}
+			function isXSYM(bl){
+				flag=true;
+			}
+		</script>
+		
+	</head>
+	<body style="font-size:12px;font-family: 宋体;">
+
+		<div pagetitle="pagetitle" style="width:270mm;height:65px;text-align:left;">
+			<table style="width:100%;border:0;" align="center">
+				<tbody>
+					<tr>
+						<td colspan="9" style="border:0;">
+							<div style="height:20px;width:100%;"></div>
+						</td>
+					</tr>
+					<tr>
+						<td colspan="7"  style="border:0;text-align:center;">
+							
+							<font style="font-size:20px;font-weight:bold;">河北科技工程职业技术大学2021-2022学年第一学期教师课表&ensp;</font>
+						</td>
+						<td colspan="2" style="border:0;text-align: right;">
+							<div style="height:24px;font-size:16px;font-weight: bold;" kind="sysdate">
+							
+							</div>
+						</td>
+					</tr>
+					<tr>
+						<td colspan="9" style="border:0;">
+							<div style="height:30px;width:100%;"></div>
+						</td>
+					</tr>
+				</tbody>
+			</table>
+		</div>
+		
+		
+		
+		<div group="group"   style="width:270mm;text-align:left;font-size:12px;font-weight:bold;">
+		   <table style="border:0;">
+				<tr>
+					<td style="height:18px;border:0;" colspan="5"></td>
+				</tr>
+				<tr>
+					<td style="height:18px;border:0;" colspan="2">
+						<div style="float:left;width:100%;font-size:14px;font-weight:bold;">部门：汽车工程系</div>
+					</td>
+					<td style="height:18px;border:0;" colspan="1">
+						<div style="float:left;width:100%;font-size:14px;font-weight:bold;">教师：[0700033]赵红生
+						
+			 			</div>
+					</td>
+					<td style="height:18px;border:0;" colspan="1">
+						<div style="float:left;width:100%;font-size:14px;font-weight:bold;">职称：</div>
+					</td>
+					<td style="height:18px;border:0;" colspan="1">
+						<div style="float:left;width:100%;font-size:14px;font-weight:bold;">
+							特殊身份：
+						</div>
+					</td>
+				</tr>
+			</table>
+		</div>
+	
+		<!-- 报表区 -->
+		<table class='table' id='mytable0' name='mytable0' style="width:270mm;">
+			<thead></thead>
+			<tbody block="block">
+				<tr>
+					<td style='width:18mm;padding:0px;background-color: white;' colspan='2'></td>
+					
+					<td class='td0' style="width:40mm;height:20px;">
+						星期一
+					</td>
+					
+					<td class='td0' style="width:40mm;height:20px;">
+						星期二
+					</td>
+					
+					<td class='td0' style="width:40mm;height:20px;">
+						星期三
+					</td>
+					
+					<td class='td0' style="width:40mm;height:20px;">
+						星期四
+					</td>
+					
+					<td class='td0' style="width:40mm;height:20px;">
+						星期五
+					</td>
+					
+					<td class='td0' style="width:24mm;height:20px;">
+						星期六
+					</td>
+					
+					<td class='td0' style="width:24mm;height:20px;">
+						星期日
+					</td>
+					
+				</tr>
+				
+				
+				<tr>
+					<td class='td1' rowspan='2' valign='middle'>
+						<div style='background-color: white;'><b>上<br>午</b></div>
+					</td>
+					<td class='td1'>
+						<b>一</b>
+					</td>
+					
+					<td class='td' style="width:40mm;height:18mm">
+						<div class='div1'  onclick='labClick(this)' id='011'>
+							
+						</div>
+					</td>
+					
+					<td class='td' style="width:40mm;height:18mm">
+						<div class='div1'  onclick='labClick(this)' id='021'>
+							
+						</div>
+					</td>
+					
+					<td class='td' style="width:40mm;height:18mm">
+						<div class='div1'  onclick='labClick(this)' id='031'>
+							
+						</div>
+					</td>
+					
+					<td class='td' style="width:40mm;height:18mm">
+						<div class='div1'  onclick='labClick(this)' id='041'>
+							
+						</div>
+					</td>
+					
+					<td class='td' style="width:40mm;height:100%">
+						<div class='div1'  onclick='labClick(this)' id='051'>
+							汽车车载网络系统的检测与修复&nbsp;[1-12]周&nbsp;1-4节&nbsp;38&nbsp;汽车楼416安全、舒适系统实训室&nbsp;汽修1932&ensp;<br>
+						</div>
+					</td>
+					
+					<td class='td' style="width:24mm;height:18mm">
+						<div class='div1'  onclick='labClick(this)' id='061'>
+							
+						</div>
+					</td>
+					
+					<td class='td' style="width:24mm;height:100%">
+						<div class='div1'  onclick='labClick(this)' id='071'>
+							汽车实用英语&nbsp;[1-8]周&nbsp;1-4节&nbsp;38&nbsp;汽车楼413基础电气实训室II&nbsp;汽修1932&ensp;<br>
+						</div>
+					</td>
+					
+				</tr>
+				
+				<tr>
+					<td class='td1'>
+						<b>二</b>
+					</td>
+					
+					<td class='td' style="width:40mm;height:18mm">
+						<div class='div1'  onclick='labClick(this)' id='012'>
+							
+						</div>
+					</td>
+					
+					<td class='td' style="width:40mm;height:18mm">
+						<div class='div1'  onclick='labClick(this)' id='022'>
+							
+						</div>
+					</td>
+					
+					<td class='td' style="width:40mm;height:18mm">
+						<div class='div1'  onclick='labClick(this)' id='032'>
+							
+						</div>
+					</td>
+					
+					<td class='td' style="width:40mm;height:18mm">
+						<div class='div1'  onclick='labClick(this)' id='042'>
+							
+						</div>
+					</td>
+					
+					<td class='td' style="width:40mm;height:100%">
+						<div class='div1'  onclick='labClick(this)' id='052'>
+							汽车车载网络系统的检测与修复&nbsp;[1-12]周&nbsp;1-4节&nbsp;38&nbsp;汽车楼416安全、舒适系统实训室&nbsp;汽修1932&ensp;<br>
+						</div>
+					</td>
+					
+					<td class='td' style="width:24mm;height:18mm">
+						<div class='div1'  onclick='labClick(this)' id='062'>
+							
+						</div>
+					</td>
+					
+					<td class='td' style="width:24mm;height:100%">
+						<div class='div1'  onclick='labClick(this)' id='072'>
+							汽车实用英语&nbsp;[1-8]周&nbsp;1-4节&nbsp;38&nbsp;汽车楼413基础电气实训室II&nbsp;汽修1932&ensp;<br>
+						</div>
+					</td>
+					
+				</tr>
+			
+			</tbody>
+			
+			<tbody block="block">
+				
+				<tr>
+					<td class='td1' rowspan='2' valign='middle'>
+						<div style='background-color: white;'><b>下<br>午</b></div>
+					</td>
+					<td class='td1'>
+						<b>三</b>
+					</td>
+					
+					<td class='td' style="width:40mm;height:100%">
+						<div class='div1'  onclick='labClick(this)' id='013'>
+							智能网联汽车概论&nbsp;[1-8]周&nbsp;6-9节&nbsp;45&nbsp;汽车楼511汽车营销策划实训室&nbsp;汽销1931&ensp;<br>
+						</div>
+					</td>
+					
+					<td class='td' style="width:40mm;height:18mm">
+						<div class='div1'  onclick='labClick(this)' id='023'>
+							
+						</div>
+					</td>
+					
+					<td class='td' style="width:40mm;height:18mm">
+						<div class='div1'  onclick='labClick(this)' id='033'>
+							
+						</div>
+					</td>
+					
+					<td class='td' style="width:40mm;height:18mm">
+						<div class='div1'  onclick='labClick(this)' id='043'>
+							
+						</div>
+					</td>
+					
+					<td class='td' style="width:40mm;height:18mm">
+						<div class='div1'  onclick='labClick(this)' id='053'>
+							
+						</div>
+					</td>
+					
+					<td class='td' style="width:24mm;height:18mm">
+						<div class='div1'  onclick='labClick(this)' id='063'>
+							
+						</div>
+					</td>
+					
+					<td class='td' style="width:24mm;height:18mm">
+						<div class='div1'  onclick='labClick(this)' id='073'>
+							
+						</div>
+					</td>
+					
+				</tr>
+				
+				<tr>
+					<td class='td1'>
+						<b>四</b>
+					</td>
+					
+					<td class='td' style="width:40mm;height:100%">
+						<div class='div1'  onclick='labClick(this)' id='014'>
+							智能网联汽车概论&nbsp;[1-8]周&nbsp;6-9节&nbsp;45&nbsp;汽车楼511汽车营销策划实训室&nbsp;汽销1931&ensp;<br>
+						</div>
+					</td>
+					
+					<td class='td' style="width:40mm;height:18mm">
+						<div class='div1'  onclick='labClick(this)' id='024'>
+							
+						</div>
+					</td>
+					
+					<td class='td' style="width:40mm;height:18mm">
+						<div class='div1'  onclick='labClick(this)' id='034'>
+							
+						</div>
+					</td>
+					
+					<td class='td' style="width:40mm;height:18mm">
+						<div class='div1'  onclick='labClick(this)' id='044'>
+							
+						</div>
+					</td>
+					
+					<td class='td' style="width:40mm;height:18mm">
+						<div class='div1'  onclick='labClick(this)' id='054'>
+							
+						</div>
+					</td>
+					
+					<td class='td' style="width:24mm;height:18mm">
+						<div class='div1'  onclick='labClick(this)' id='064'>
+							
+						</div>
+					</td>
+					
+					<td class='td' style="width:24mm;height:18mm">
+						<div class='div1'  onclick='labClick(this)' id='074'>
+							
+						</div>
+					</td>
+					
+				</tr>
+			
+			</tbody>
+			<tbody block="block">
+				
+				
+				<tr>
+					<td class='td1' rowspan='1' valign='middle'>
+						<div style='background-color: white;'><b>晚<br>上</b></div>
+					</td>
+					<td class='td1'>
+						<b>五</b>
+					</td>
+					
+					<td class='td' style="width:40mm;height:18mm">
+						<div class='div1'  onclick='labClick(this)' id='015'>
+							
+						</div>
+					</td>
+					
+					<td class='td' style="width:40mm;height:18mm">
+						<div class='div1'  onclick='labClick(this)' id='025'>
+							
+						</div>
+					</td>
+					
+					<td class='td' style="width:40mm;height:18mm">
+						<div class='div1'  onclick='labClick(this)' id='035'>
+							
+						</div>
+					</td>
+					
+					<td class='td' style="width:40mm;height:18mm">
+						<div class='div1'  onclick='labClick(this)' id='045'>
+							
+						</div>
+					</td>
+					
+					<td class='td' style="width:40mm;height:18mm">
+						<div class='div1'  onclick='labClick(this)' id='055'>
+							
+						</div>
+					</td>
+					
+					<td class='td' style="width:24mm;height:18mm">
+						<div class='div1'  onclick='labClick(this)' id='065'>
+							
+						</div>
+					</td>
+					
+					<td class='td' style="width:24mm;height:18mm">
+						<div class='div1'  onclick='labClick(this)' id='075'>
+							
+						</div>
+					</td>
+					
+				</tr>
+				
+			</tbody>
+		</table>
+		
+	</body>
+</html>
